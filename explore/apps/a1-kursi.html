@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>IDEATALKS — Jadwal Pribadi</title>
+<style>
+@font-face{font-family:'Anton';src:url('fonts/anton.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:'InterV';src:url('fonts/inter.woff2') format('woff2');font-weight:100 900;font-display:swap}
+@font-face{font-family:'Instrument';src:url('fonts/InstrumentSerif-Regular.ttf') format('truetype');font-display:swap}
+:root{
+  --navy:#0E1E4A;--navy-2:#16295e;--cream:#F5F1E8;--pink:#C4157A;
+  --ink:#141414;--muted:#5c5f6b;--line:rgba(14,30,74,.14);
+  --white:#fff;--serif:'Instrument',Georgia,serif;--sans:'InterV',system-ui,sans-serif;--display:'Anton',Impact,sans-serif;
+  --t-navy:var(--navy);--t-pink:var(--pink);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--navy)}
+body{font-family:var(--sans);color:var(--ink);background:var(--cream);min-height:100vh;-webkit-font-smoothing:antialiased}
+.wrap{max-width:430px;margin:0 auto;min-height:100vh;background:var(--cream);position:relative;overflow:hidden}
+.silk{position:absolute;inset:0;pointer-events:none;opacity:.5;
+  background:
+   radial-gradient(60% 34% at 12% 0%,rgba(233,30,140,.20),transparent 70%),
+   radial-gradient(50% 30% at 92% 12%,rgba(255,255,255,.5),transparent 70%),
+   radial-gradient(70% 40% at 50% 100%,rgba(14,30,74,.10),transparent 72%);
+  filter:blur(2px)}
+.page{position:relative;z-index:1;padding:0 22px 118px}
+/* header */
+.top{display:flex;align-items:center;justify-content:space-between;padding:18px 0 14px}
+.brand{font-family:var(--display);font-size:19px;letter-spacing:.02em;color:var(--navy)}
+.brand span{color:var(--pink)}
+.avatar{width:34px;height:34px;border-radius:50%;background:var(--navy);color:var(--cream);display:grid;place-items:center;font-size:12px;font-weight:600;letter-spacing:.04em}
+/* hero */
+.eyebrow{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#5A5D68;font-weight:600}
+.hero{padding:10px 0 22px}
+.hero h1{font-family:var(--serif);font-size:34px;line-height:1.16;color:var(--navy);letter-spacing:-.01em;margin-top:10px}
+.hero h1 em{font-style:normal;color:var(--pink)}
+.hero p{font-size:14.5px;line-height:1.62;color:#3d4049;margin-top:11px;max-width:34ch}
+/* day rail */
+.days{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding:2px 0 18px;margin:0 -22px;padding-left:22px;padding-right:22px}
+.days::-webkit-scrollbar{display:none}
+.day{flex:0 0 auto;min-width:88px;padding:11px 14px;border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.5)}
+.day b{display:block;font-family:var(--display);font-size:15px;color:var(--navy);letter-spacing:.03em}
+.day span{font-size:11.5px;color:var(--muted);display:block;margin-top:3px}
+.day.on{background:var(--navy);border-color:var(--navy)}
+.day.on b{color:var(--cream)}.day.on span{color:rgba(245,241,232,.66)}
+/* the map: timeline */
+.map{background:var(--navy);border-radius:20px;padding:22px 20px 20px;color:var(--cream);position:relative;overflow:hidden}
+.map::after{content:'';position:absolute;width:230px;height:230px;border-radius:50%;background:radial-gradient(circle,rgba(233,30,140,.34),transparent 68%);right:-80px;top:-90px}
+.map .lbl{font-size:10.5px;letter-spacing:.15em;text-transform:uppercase;color:rgba(245,241,232,.6);font-weight:600}
+.map h2{font-family:var(--serif);font-size:25px;line-height:1.2;margin-top:8px;position:relative;z-index:1}
+.map p{font-size:13.5px;line-height:1.6;color:rgba(245,241,232,.76);margin-top:9px;position:relative;z-index:1}
+.rail{margin-top:20px;position:relative;z-index:1}
+.rail-line{position:absolute;left:6px;right:6px;top:6px;height:2px;background:rgba(245,241,232,.2)}
+.rail-fill{position:absolute;left:6px;top:6px;height:2px;background:var(--pink);width:38%}
+.stops{display:flex;justify-content:space-between;position:relative}
+.stop{text-align:center;width:22%}
+.stop i{display:block;width:14px;height:14px;border-radius:50%;background:var(--navy);border:2px solid rgba(245,241,232,.35);margin:0 auto 8px;position:relative;z-index:2}
+.stop.on i{background:var(--pink);border-color:var(--pink);box-shadow:0 0 0 4px rgba(233,30,140,.22)}
+.stop b{display:block;font-size:11px;color:rgba(245,241,232,.55);font-weight:600}
+.stop.on b{color:var(--cream)}
+/* picks */
+.sec{margin-top:30px}
+.sec-h{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:14px}
+.sec-h h3{font-family:var(--display);font-size:16px;color:var(--navy);letter-spacing:.03em}
+.sec-h a{font-size:12.5px;color:#8A2B63;font-weight:600;text-decoration:none}
+.pick{background:var(--white);border:1px solid var(--line);border-radius:16px;padding:17px 18px;margin-bottom:11px;position:relative;overflow:hidden}
+.pick::before{content:none}
+
+.pick .meta{display:flex;align-items:center;gap:9px;font-size:11.5px;color:var(--muted);font-weight:500}
+.pick .meta em{font-style:normal;padding:3px 9px;border-radius:20px;font-weight:700;font-size:10.5px;letter-spacing:.04em;text-transform:uppercase;background:#FDE7F3;color:#8A1B5B}
+.pick.t2 .meta em{background:#EDE9FE;color:#5B21B6}.pick.t3 .meta em{background:#E0F2FE;color:#075985}
+.pick.t4 .meta em{background:#D1FAE5;color:#065F46}.pick.t5 .meta em{background:#FFE4E6;color:#9F1239}
+.pick h4{font-family:var(--serif);font-size:20px;line-height:1.24;color:var(--navy);margin-top:9px}
+.pick .spk{margin-top:11px;display:flex;align-items:center;gap:8px}
+.pick .spk i{width:26px;height:26px;border-radius:50%;background:rgba(14,30,74,.1);color:var(--navy);display:grid;place-items:center;font-size:10.5px;font-weight:700;font-style:normal}
+.pick .spk span{font-size:12.5px;color:#3d4049;line-height:1.4}
+.pick .spk small{display:block;font-size:11px;color:var(--muted)}
+.why{margin-top:12px;padding-top:11px;border-top:1px dashed var(--line);font-size:12.5px;line-height:1.55;color:#4a4d57}
+.why b{color:var(--navy)}
+.save{margin-top:13px;display:flex;gap:8px}
+.btn-save{flex:1;height:40px;border-radius:11px;border:1px solid var(--navy);background:transparent;color:var(--navy);font-family:var(--sans);font-size:13px;font-weight:600;cursor:pointer}
+.btn-save.done{background:var(--navy);color:var(--cream)}
+/* nav */
+.nav{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:430px;background:rgba(245,241,232,.93);backdrop-filter:blur(14px);border-top:1px solid var(--line);display:flex;padding:8px 10px calc(8px + env(safe-area-inset-bottom));z-index:20}
+.nav a{flex:1;display:grid;place-items:center;gap:3px;font-size:10.5px;color:var(--muted);text-decoration:none;font-weight:500}
+.nav a.on{color:var(--navy);font-weight:600}
+.nav svg{width:21px;height:21px;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+/* chat sheet */
+.fab{position:fixed;right:16px;bottom:78px;width:52px;height:52px;border-radius:50%;background:var(--pink);color:#fff;display:grid;place-items:center;box-shadow:0 8px 24px rgba(233,30,140,.38);z-index:21;cursor:pointer;border:none}
+.fab svg{width:24px;height:24px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.sheet{position:fixed;inset:0;background:rgba(14,30,74,.42);z-index:30;display:none;align-items:flex-end}
+.sheet.open{display:flex}
+.sheet-in{width:100%;max-width:430px;margin:0 auto;background:var(--cream);border-radius:20px 20px 0 0;padding:8px 20px calc(20px + env(safe-area-inset-bottom));max-height:86vh;overflow:auto}
+.grab{width:38px;height:4px;border-radius:4px;background:rgba(14,30,74,.2);margin:0 auto 16px}
+.sheet h3{font-family:var(--serif);font-size:22px;color:var(--navy)}
+.sheet .hint{font-size:12.5px;color:var(--muted);margin-top:6px;line-height:1.5}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.chip{border:1px solid var(--line);background:var(--white);border-radius:20px;padding:9px 13px;font-size:12.5px;color:var(--navy);font-weight:500;cursor:pointer}
+.chip:active{background:rgba(14,30,74,.06)}
+.msg{background:var(--white);border:1px solid var(--line);border-radius:14px;padding:13px 15px;margin-top:16px;font-size:13.5px;line-height:1.6;color:#33363f}
+.msg b{color:var(--navy)}
+.ask{display:flex;gap:8px;margin-top:16px}
+.ask input{flex:1;height:44px;border-radius:12px;border:1px solid var(--line);background:var(--white);padding:0 14px;font-family:var(--sans);font-size:14px;color:var(--ink)}
+.ask input:focus{outline:2px solid var(--pink);outline-offset:-1px}
+.ask button{width:44px;height:44px;border-radius:12px;border:none;background:var(--navy);color:var(--cream);font-size:17px;cursor:pointer}
+@media(min-width:700px){.wrap{box-shadow:0 0 80px rgba(0,0,0,.35)}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="silk"></div>
+  <div class="page">
+    <div class="top">
+      <div class="brand">IDEATALKS <span>SUB</span></div>
+      <div class="avatar">RA</div>
+    </div>
+
+    <div class="hero">
+      <div class="eyebrow">Jadwal pribadi</div>
+      <h1>Halo Raka. Ada <em>4 sesi</em> yang cocok denganmu.</h1>
+      <p>Kamu bilang mau-ngeluarin produk baru tahun ini. Aku susun jalannya dari 109 sesi yang ada.</p>
+    </div>
+
+    <div class="days">
+      <div class="day"><b>DAY 1</b><span>6 Agu</span></div>
+      <div class="day on"><b>DAY 2</b><span>7 Agu</span></div>
+      <div class="day"><b>DAY 3</b><span>8 Agu</span></div>
+    </div>
+
+    <div class="map">
+      <div class="lbl">Peta harimu</div>
+      <h2>Rapat bisa merapat.</h2>
+      <p>Tiga sesi sisipan forming — jeda 10 menit, satu ruangan, tightrope.</p>
+      <div class="rail">
+        <div class="rail-line"></div><div class="rail-fill"></div>
+        <div class="stops">
+          <div class="stop"><i></i><b>09:30</b></div>
+          <div class="stop on"><i></i><b>10:30</b></div>
+          <div class="stop"><i></i><b>13:30</b></div>
+          <div class="stop on"><i></i><b>14:30</b></div>
+          <div class="stop"><i></i><b>15:30</b></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-h"><h3>PILIHAN UNTUKMU</h3><a href="#">Lihat semua →</a></div>
+
+      <div class="pick">
+        <div class="meta"><em>Bisnis</em><span>10:30–11:20</span><span>·</span><span>Room Diamond 2</span></div>
+        <h4>Strategi Harga untuk Produk Lokal</h4>
+        <div class="spk"><i>YT</i><span>Yoga Wicaksono<small>Brand Strategist · Sumbergarap</small></span></div>
+        <div class="why">Cocok karena <b>kamu sedang menaikkan harga</b> produk pertama — sesi ini memberi sudut pandang harga pasar lokal, bukan teori global.</div>
+        <div class="save"><button class="btn-save">Simpan ke jadwal</button></div>
+      </div>
+
+      <div class="pick t4">
+        <div class="meta"><em>Teknologi</em><span>14:30–15:20</span><span>·</span><span>Room Crystal 1</span></div>
+        <h4>AI untuk UMKM: Tools yang Selesai Dipakai</h4>
+        <div class="spk"><i>IB</i><span>Indra Budiono<small>Tech Lead at Nusa Byte</small></span></div>
+        <div class="why">Kamu bilang <b>ingin pakai AI buat operasional</b> tapi belum tahu yang mana. Sesi ini menunjuk tools yang dipakai UMKM sungguhan.</div>
+        <div class="save"><button class="btn-save">Simpan ke jadwal</button></div>
+      </div>
+
+      <div class="pick t3">
+        <div class="meta"><em>Content</em><span>16:30–17:20</span><span>·</span><span>Room Origin</span></div>
+        <h4>Konten yang Berbisnis: Dari Story ke Offer</h4>
+        <div class="spk"><i>SG</i><span>Stefani Gabriela<small>Content Creator & Family Storyteller</small></span></div>
+        <div class="why">Bagian <b>nikel untuk jualan</b> — karena kontenmu sekarang baru stopper, belum menjual.</div>
+        <div class="save"><button class="btn-save">Simpan ke jadwal</button></div>
+      </div>
+
+      <div class="pick t2">
+        <div class="meta"><em>Art &amp; Culture</em><span>17:30–18:20</span><span>·</span><span>Studio Corner</span></div>
+        <h4>Menj musicalskan Karakter Pertamamu ke Layar</h4>
+        <div class="spk"><i>ET</i><span>Edwin Tranggono<small>Creative Director at Ruang Kita</small></span></div>
+        <div class="why">Bonus, tapi <b>kamu suka yang visual</b> dan ini satu-satunya sesi yang soal cerita jadi karakter.</div>
+        <div class="save"><button class="btn-save">Simpan ke jadwal</button></div>
+      </div>
+    </div>
+  </div>
+
+  <button class="fab" onclick="document.querySelector('.sheet').classList.add('open')" aria-label="Tanya assistant">
+    <svg viewBox="0 0 24 24"><path d="M21 12a8 8 0 01-11.6 7.1L4 20l1-4.6A8 8 0 1121 12z"/></svg>
+  </button>
+
+  <nav class="nav">
+    <a href="#" class="on"><svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7M5 10v10h14V10"/></svg>Beranda</a>
+    <a href="#"><svg viewBox="0 0 24 24"><path d="M8 2v4M16 2v4M3 9h18M5 4h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V6a2 2 0 012-2z"/></svg>Jadwal</a>
+    <a href="#"><svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 100 18c1 0 1.5-.8 1.5-1.5 0-.4-.2-.8-.4-1.1-.3-.3-.4-.7-.4-1.1 0-.8.7-1.5 1.5-1.5H16a5 5 0 005-5c0-4.4-4-7.8-9-7.8z"/></svg>Speaker</a>
+    <a href="#"><svg viewBox="0 0 24 24"><path d="M16 20v-1a4 4 0 00-4-4H6a4 4 0 00-4 4v1M9 11a4 4 0 100-8 4 4 0 000 8zM22 20v-1a4 4 0 00-3-3.9M16 3.1a4 4 0 010 7.8"/></svg>Profil</a>
+  </nav>
+
+  <div class="sheet" onclick="if(event.target===this)this.classList.remove('open')">
+    <div class="sheet-in">
+      <div class="grab"></div>
+      <div class="eyebrow">Assistant acara</div>
+      <h3 style="margin-top:8px">Tanya apa saja soal IDEATALKS.</h3>
+      <div class="hint">Semua jawaban datang dari 109 sesi dan 225 speaker — bukan dari internet.</div>
+      <div class="chips">
+        <button class="chip">Ringkasan 3 hari</button>
+        <button class="chip">Sesi tiap track</button>
+        <button class="chip">Yang wajib dilihat</button>
+        <button class="chip">Where's the food?</button>
+      </div>
+      <div class="msg">
+        <b>Punya waktu 20 menit sebelum lunch?</b> Ambil <b>“AI untuk UMKM”</b> di Crystal 1, jam 12:30. Drink kopi sponsor ada di lobi sampai jam 11.45.
+      </div>
+      <div class="ask"><input placeholder="Tanya soal sesi, speaker, ruangan…"><button>↑</button></div>
+    </div>
+  </div>
+</div>
+<script>
+document.querySelectorAll('.btn-save').forEach(b=>b.addEventListener('click',()=>{b.classList.toggle('done');b.textContent=b.classList.contains('done')?'Tersimpan ✓':'Simpan ke jadwal'}));
+</script>
+</body>
+</html>

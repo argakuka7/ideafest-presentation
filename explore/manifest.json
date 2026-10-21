@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "project": "IDEATALKS SUB 2027 — Aplikasi Pengunjung + Assistant",
+  "brief": "Aplikasi acara: pengunjung daftar, onboard, lalu dapat rekomendasi sesi personal dari 1 agentic AI (Q&A + rekomendasi speaker). Data contoh: 80 sesi, 132 speaker, 3 hari, 8 track. Branding IDEATALKS: navy/cream/pink, Anton + Inter.",
+  "round": "01",
+  "candidates": [
+    {
+      "id": "a1",
+      "name": "Kursi & Peta Panggung",
+      "concept": "Rekomendasi adalah protagonist: jadwal personal digambar sebagai peta hari yang bisa dibaca, bukan chat bubble.",
+      "typography": "Instrument Serif (judul display, kontras tinggi) + Inter (UI, body 14-16px)",
+      "palette": [
+        "#0E1E4A",
+        "#F5F1E8",
+        "#C4157A"
+      ],
+      "traits": [
+        "Editorial tenang, ruang lega",
+        "Peta hari = elemen hidup",
+        "Alasan rekomendasi ditulis jelas di setiap kartu",
+        "Chat agent tersembunyi di sheet"
+      ],
+      "source": "apps/a1-kursi.html",
+      "interactive": true
+    },
+    {
+      "id": "a2",
+      "name": "Poster Festival",
+      "concept": "Acara yang viewed sebagai line-up festival: kartu berwarna penuh, padat, cepat dipindai sambil berdiri.",
+      "typography": "Anton (judul, kapital) + Inter (meta, 11-13px)",
+      "palette": [
+        "#0E1E4A",
+        "#F5F1E8",
+        "#BE123C",
+        "#047857",
+        "#6D28D9"
+      ],
+      "traits": [
+        "Grid 2 kolom, warna track penuh",
+        "Masthead besar seperti poster",
+        "Asisten menempel di bawah, bukan di layar utama",
+        "Energi tinggi, padat"
+      ],
+      "source": "apps/a2-festival.html",
+      "interactive": true
+    },
+    {
+      "id": "a3",
+      "name": "Percakapan Personal",
+      "concept": "Agent terasa seperti panutan personal yang warmed-up, bukan software: ngobrol dulu, rekomendasi menyusul.",
+      "typography": "Instrument Serif (jawaban agent, 18.5px) + Inter (UI & chips)",
+      "palette": [
+        "#0E1E4A",
+        "#F7F3EA",
+        "#C4157A",
+        "#047857"
+      ],
+      "traits": [
+        "Thread chat penuh, kartu rekomendasi besar di dalam",
+        "Toned/warm,_navah krem",
+        "Kartu memuat alasan, bukan hanya judul",
+        "Jawabannya terasa personal"
+      ],
+      "source": "apps/a3-obrol.html",
+      "interactive": true
+    }
+  ]
+}

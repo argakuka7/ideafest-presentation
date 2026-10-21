@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>IDEATALKS 2027 — Mockup 3 Arah</title>
+<style>
+@font-face{font-family:'InterV';src:url('fonts/inter.woff2') format('woff2');font-weight:100 900}
+@font-face{font-family:'Anton';src:url('fonts/anton.woff2') format('woff2')}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'InterV',system-ui,sans-serif;background:#0E1E4A;color:#F5F1E8;min-height:100vh;padding:44px 22px}
+.wrap{max-width:1080px;margin:0 auto}
+.eyebrow{font-size:11px;letter-spacing:.16em;text-transform:uppercase;opacity:.62;font-weight:600}
+h1{font-family:'Anton',Impact,sans-serif;font-size:38px;line-height:1.05;margin:12px 0 10px}
+h1 em{font-style:normal;color:#FF8FC4}
+p.lead{font-size:15px;line-height:1.65;opacity:.8;max-width:62ch}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:16px;margin-top:32px}
+a.card{display:block;text-decoration:none;color:inherit;background:rgba(245,241,232,.06);border:1px solid rgba(245,241,232,.16);border-radius:16px;padding:20px;transition:.15s}
+a.card:hover{background:rgba(245,241,232,.11);transform:translateY(-2px)}
+.no{font-family:'Anton',Impact,sans-serif;font-size:13px;color:#FF8FC4;letter-spacing:.08em}
+a.card h2{font-size:19px;font-weight:700;margin:9px 0 8px;letter-spacing:-.01em}
+a.card p{font-size:13.5px;line-height:1.6;opacity:.72}
+a.card .go{margin-top:14px;font-size:12.5px;font-weight:600;color:#FF7FC0}
+.note{margin-top:30px;padding:18px 20px;border:1px solid rgba(245,241,232,.14);border-radius:14px;font-size:13.5px;line-height:1.65;opacity:.76;max-width:70ch}
+.note b{color:#F5F1E8;opacity:1}
+.row{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.row a{font-size:13px;font-weight:600;text-decoration:none;color:#F5F1E8;border:1px solid rgba(245,241,232,.4);padding:9px 15px;border-radius:10px}
+.row a.main{background:#C4157A;border-color:#C4157A}
+</style></head><body><div class="wrap">
+<div class="eyebrow">Oil UI — Ronde 01 · 3 arah</div>
+<h1>IDEATALKS SUB 2027<br><em>Aplikasi Pengunjung + Assistant</em></h1>
+<p class="lead">Tiga aplikasi utuh dengan data contoh: 80 sesi, 132 speaker, 3 hari, 8 track. Semua memakai branding IDEATALKS yang sudah ada — navy, krem, pink, Anton + Inter. Satu agentic AI (Mira) menjawab pertanyaan dan merekomendasikan sesi untuk tiap pengunjung.</p>
+<div class="row" style="margin-top:26px">
+<a class="main" href="app/index.html">Buka aplikasi lengkap (onboarding → chat → admin)</a>
+</div>
+<div class="grid" style="margin-top:26px">
+<a class="card" href="explore/style-explorer.html"><div class="no">01</div><h2>Kursi &amp; Peta Panggung</h2><p>Rekomendasi adalah protagonist. Jadwal personal digambar sebagai peta hari, dengan alasan di tiap kartu. Tenang, editorial, seperti majalah acara.</p><div class="go">Buka →</div></a>
+<a class="card" href="explore/style-explorer.html"><div class="no">02</div><h2>Poster Festival</h2><p>Acara sebagai line-up festival. Kartu berwarna penuh per track, padat, cepat dipindai sambil berdiri. Energi tinggi.</p><div class="go">Buka →</div></a>
+<a class="card" href="explore/style-explorer.html"><div class="no">03</div><h2>Percakapan Personal</h2><p>Agent sebagai panutan personal, bukan software. Ngobrol dulu, rekomendasi besar menyusul di dalam thread.</p><div class="go">Buka →</div></a>
+</div>
+<div class="row">
+<a class="main" href="explore/style-explorer.html">Bandingkan ketiga arah berdampingan</a>
+<a href="apps/a1-kursi.html">Buka Arah 1 langsung</a>
+<a href="apps/a2-festival.html">Buka Arah 2 langsung</a>
+<a href="apps/a3-obrol.html">Buka Arah 3 langsung</a>
+</div>
+<div class="note"><b>Catatan:</b> ini mockup UI dengan data contoh, belum ada backend. Auth (Better Auth + Convex), agentic AI, dan penyimpanan data pengunjung belum diimplementasikan. Sumber data contoh: <b>apps/dummy-data.json</b>. Ringkasan keputusan desain ada di <b>NOTES.md</b>.</div>
+</div></body></html>

@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>IDEATALKS SUB 2027</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app" id="app">
+  <div class="silk" id="silk"></div>
+
+  <!-- ============ ONBOARDING ============ -->
+  <section class="screen onb" id="scr-onb">
+    <div class="onb-wrap">
+      <div class="onb-brand">
+        <div class="logo">IDEATALKS <span>SUB</span></div>
+        <div class="logo-sub">6–8 Agustus 2027 · Grand City Convex, Surabaya</div>
+      </div>
+
+      <div class="onb-body" id="onb-body">
+        <div class="onb-step" data-step="1">
+          <div class="eyebrow">Langkah 1 dari 3</div>
+          <h1>Selamat datang<br>di <em>IDEATALKS</em>.</h1>
+          <p class="lede">Tiga hari, <span data-count="sessions"></span> sesi, <span data-count="speakers"></span> pembicara. Bantu kami susun jadwal yang pas buat kamu.</p>
+          <div class="field">
+            <label for="f-name">Nama kamu</label>
+            <input id="f-name" type="text" placeholder="Contoh: Raka Pratama" autocomplete="name">
+          </div>
+          <div class="field">
+            <label for="f-email">Email</label>
+            <input id="f-email" type="email" placeholder="kamu@email.com" autocomplete="email">
+            <small class="hint">Dipakai untuk sign-in dan kirim jadwal ke kamu.</small>
+          </div>
+          <div class="err" id="err-1" hidden>Isi nama dan email dulu ya.</div>
+          <button class="btn-primary" data-next="2">Lanjut</button>
+          <div class="onb-foot">Sudah punya akun? <a href="#" id="to-signin">Masuk</a></div>
+        </div>
+
+        <div class="onb-step" data-step="2" hidden>
+          <div class="eyebrow">Langkah 2 dari 3</div>
+          <h1>Kamu datang<br><em>untuk apa?</em></h1>
+          <p class="lede">Pilih semua yang cocok. Ini yang bikin Mira tahu harus rekomendasikan apa.</p>
+          <div class="chipset" id="interest-set">
+            <button class="chip-pick" data-i="Bisnis">Bisnis &amp; peluang</button>
+            <button class="chip-pick" data-i="Teknologi">Teknologi &amp; produk</button>
+            <button class="chip-pick" data-i="Content">Content &amp; branding</button>
+            <button class="chip-pick" data-i="Art &amp; Culture">Seni &amp; budaya</button>
+            <button class="chip-pick" data-i="FnB">F&amp;B &amp; lifestyle</button>
+            <button class="chip-pick" data-i="Self Development">Diri &amp; karier</button>
+            <button class="chip-pick" data-i="Mental Health">Kesehatan mental</button>
+            <button class="chip-pick" data-i="Policy Making">Kebijakan &amp; kota</button>
+          </div>
+          <div class="field">
+            <label>Peran kamu</label>
+            <div class="chipset" id="role-set">
+              <button class="chip-pick soft" data-r="Founder">Founder / pemilik</button>
+              <button class="chip-pick soft" data-r="Product">Product &amp; engineering</button>
+              <button class="chip-pick soft" data-r="Marketing">Marketing &amp; content</button>
+              <button class="chip-pick soft" data-r="Student">Pelajar / mahasiswa</button>
+              <button class="chip-pick soft" data-r="Professional">Karyawan / profesional</button>
+              <button class="chip-pick soft" data-r="Investor">Investor /做的事</button>
+            </div>
+          </div>
+          <div class="err" id="err-2" hidden>Pilih minimal satu minat.</div>
+          <div class="btn-row">
+            <button class="btn-ghost" data-next="1">Kembali</button>
+            <button class="btn-primary" data-next="3">Lanjut</button>
+          </div>
+        </div>
+
+        <div class="onb-step" data-step="3" hidden>
+          <div class="eyebrow">Langkah 3 dari 3</div>
+          <h1>Mira, <em>penanda acara</em>mu.</h1>
+          <p class="lede">Aku yang akan bantu pilih sesi dan jawab pertanyaan soal IDEATALKS. Aku tahu semua <span data-count="sessions"></span> sesi dan <span data-count="speakers"></span> pembicara — bukan dari internet.</p>
+          <div class="mira-card">
+            <div class="mira-av">M</div>
+            <div>
+              <div class="mira-name">Mira</div>
+              <div class="mira-desc">Tahu: <span data-count="sessions"></span> sesi · <span data-count="speakers"></span> pembicara · <span data-count="tracks"></span> track · <span data-count="days"></span> hari</div>
+            </div>
+            <span class="dot-live"></span>
+          </div>
+          <div class="field">
+            <label for="f-ticket">Kode tiket (opsional)</label>
+            <input id="f-ticket" type="text" placeholder="IDEAFEST-2027-XXXX">
+            <small class="hint">Punya tiket? Isi untuk akses sesi khusus peserta.</small>
+          </div>
+          <div class="err" id="err-3" hidden></div>
+          <div class="btn-row">
+            <button class="btn-ghost" data-next="2">Kembali</button>
+            <button class="btn-primary" id="finish-onb">Masuk ke IDEATALKS</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="onb-progress" id="onb-progress">
+        <i class="on"></i><i></i><i></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ APP UTAMA ============ -->
+  <section class="screen main" id="scr-main" hidden>
+    <header class="appbar" id="appbar">
+      <div class="ab-left">
+        <button class="icon-btn" id="btn-back" hidden aria-label="Kembali">
+          <svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <div class="logo sm" id="brand-logo">IDEATALKS <span>SUB</span></div>
+      </div>
+      <div class="ab-right">
+        <button class="icon-btn" id="btn-search" aria-label="Cari"><svg viewBox="0 0 24 24"><path d="M11 19a8 8 0 100-16 8 8 0 000 16zM21 21l-4.3-4.3"/></svg></button>
+        <button class="icon-btn" id="btn-notif" aria-label="Notifikasi"><svg viewBox="0 0 24 24"><path d="M18 8a6 6 0 10-12 0c0 7-3 9-3 9h18s-3-2-3-9M13.7 21a2 2 0 01-3.4 0"/></svg><span class="badge-dot" id="notif-dot"></span></button>
+        <button class="avatar" id="btn-profile">RA</button>
+      </div>
+    </header>
+
+    <div class="ctxbar" id="ctxbar">
+      <div class="cb-left">
+        <span class="cb-title" id="cb-title">Beranda</span>
+        <span class="cb-sub" id="cb-sub"></span>
+      </div>
+      <div class="cb-right">
+        <span class="cb-day" id="cb-day">Day 1</span>
+        <span class="cb-clock" id="cb-clock">10:42</span>
+      </div>
+    </div>
+
+    <main class="scroll" id="scroll">
+      <!-- BERANDA -->
+      <div class="view" id="v-home">
+        <div class="nowstrip" id="nowstrip"></div>
+        <div class="hello">
+          <div class="eyebrow">Jadwal pribadi</div>
+          <h1 id="home-h1">Halo <span id="home-name">Raka</span>. Ada <em id="home-count">4 sesi</em> yang cocok denganmu.</h1>
+          <p id="home-lede"></p>
+        </div>
+        <div class="days" id="day-tabs"></div>
+        <div class="map" id="day-map"></div>
+        <div class="sec">
+          <div class="sec-h"><h3>PILIHAN UNTUKMU</h3><a href="#" id="link-all">Lihat semua →</a></div>
+          <div id="home-recs"></div>
+        </div>
+        <div class="sec" id="sec-why">
+          <div class="sec-h"><h3>MIRA PUNYA CATATAN</h3></div>
+          <div class="note-card" id="mira-note"></div>
+        </div>
+      </div>
+
+      <!-- JADWAL -->
+      <div class="view" id="v-schedule" hidden>
+        <div class="view-head">
+          <h2>Jadwal lengkap</h2>
+          <p><span data-count="sessions"></span> sesi, <span data-count="days"></span> hari, <span data-count="tracks"></span> track.</p>
+        </div>
+        <div class="days" id="day-tabs2"></div>
+        <div class="search-row">
+          <div class="search-box">
+            <svg viewBox="0 0 24 24"><path d="M11 19a8 8 0 100-16 8 8 0 000 16zM21 21l-4.3-4.3"/></svg>
+            <input id="q-sessions" type="search" placeholder="Cari sesi atau pembicara…">
+          </div>
+        </div>
+        <div class="filter-row" id="track-filters"></div>
+        <div id="session-list"></div>
+      </div>
+
+      <!-- SIMPANAN -->
+      <div class="view" id="v-saved" hidden>
+        <div class="view-head">
+          <h2>Tersimpan</h2>
+          <p id="saved-count">0 sesi tersimpan.</p>
+        </div>
+        <div class="conflicts" id="conflicts" hidden></div>
+        <div class="row-actions" id="saved-actions" hidden>
+          <button class="btn-save" id="btn-ics">Tambah ke kalender (.ics)</button>
+          <button class="btn-save" id="btn-share">Bagikan jadwal</button>
+        </div>
+        <div id="saved-list"></div>
+      </div>
+
+      <!-- SPEAKER -->
+      <div class="view" id="v-speakers" hidden>
+        <div class="view-head">
+          <h2>Pembicara</h2>
+          <p><span data-count="speakers"></span> orang dari <span data-count="tracks"></span> track.</p>
+        </div>
+        <div class="search-row">
+          <div class="search-box">
+            <svg viewBox="0 0 24 24"><path d="M11 19a8 8 0 100-16 8 8 0 000 16zM21 21l-4.3-4.3"/></svg>
+            <input id="q-speakers" type="search" placeholder="Cari pembicara…">
+          </div>
+        </div>
+        <div id="speaker-list"></div>
+      </div>
+
+      <!-- PROFIL -->
+      <div class="view" id="v-profile" hidden>
+        <div class="view-head"><h2>Profil kamu</h2><p>Data ini dipakai Mira untuk merekomendasikan sesi.</p></div>
+        <div class="prof-card" id="prof-card"></div>
+        <div class="sec">
+          <div class="sec-h"><h3>MINAT KAMU</h3><a href="#" id="edit-interest">Ubah</a></div>
+          <div class="chipset readonly" id="prof-interests"></div>
+        </div>
+        <div class="sec">
+          <div class="sec-h"><h3>AKUN</h3></div>
+          <div class="list-card">
+            <button class="list-row" id="btn-tickets"><span>Kode tiket</span><b id="ticket-val">—</b></button>
+            <button class="list-row" id="btn-signout"><span>Keluar</span><b>→</b></button>
+          </div>
+        </div>
+        <div class="sec">
+          <div class="sec-h"><h3>PENYELENGGARA</h3></div>
+          <div class="list-card">
+            <button class="list-row" id="btn-admin"><span>Dashboard admin</span><b>→</b></button>
+            <button class="list-row" id="btn-visitors"><span>Daftar pengunjung</span><b>→</b></button>
+          </div>
+          <p class="admin-hint">Halaman untuk pengelola acara: data pengunjung, minat, dan pertanyaan yang paling sering muncul.</p>
+        </div>
+        <div class="sec">
+          <div class="sec-h"><h3>TENTANG APP INI</h3></div>
+          <div class="list-card">
+            <div class="list-row"><span>Versi</span><b>2027.1 (mockup)</b></div>
+            <div class="list-row"><span>Data acara</span><b>80 sesi · 132 pembicara</b></div>
+            <div class="list-row"><span>Agent</span><b>Mira (DeepSeek)</b></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CHAT -->
+      <div class="view chatview" id="v-chat" hidden>
+        <div class="chat-head">
+          <div class="mira-av sm">M</div>
+          <div><h3>Mira</h3><p>Penanda acara · selalu online</p></div>
+          <button class="icon-btn" id="chat-close" aria-label="Tutup"><svg viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
+        </div>
+        <div class="chat-thread" id="chat-thread"></div>
+        <div class="chat-chips" id="chat-chips"></div>
+        <div class="chat-input">
+          <input id="chat-text" placeholder="Tanya Mira: sesi, pembicara, ruangan…" autocomplete="off">
+          <button id="chat-send" aria-label="Kirim"><svg viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+        </div>
+        <div class="chat-hint">Jawabannya dari data acara — bukan dari internet.</div>
+      </div>
+
+      <!-- DETAIL SESI -->
+      <!-- DETAIL SPEAKER -->
+      <!-- CARI (overlay) -->
+      <div class="overlay" id="v-search" hidden>
+        <div class="ov-box">
+          <div class="ov-input">
+            <svg viewBox="0 0 24 24"><path d="M11 19a8 8 0 100-16 8 8 0 000 16zM21 21l-4.3-4.3"/></svg>
+            <input id="ov-q" placeholder="Cari sesi, pembicara, ruangan…" autocomplete="off">
+            <button id="ov-close">✕</button>
+          </div>
+          <div id="ov-results"></div>
+        </div>
+      </div>
+
+      <!-- NOTIFIKASI -->
+      <div class="overlay" id="v-notif" hidden>
+        <div class="ov-box right">
+          <div class="ov-head"><h3>Notifikasi</h3><button id="notif-close">✕</button></div>
+          <div id="notif-list"></div>
+        </div>
+      </div>
+    </main>
+
+      <div class="view sheetview" id="v-session" hidden>
+        <button class="sheet-close" id="sess-close"><svg viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
+        <div id="sess-detail"></div>
+      </div>
+
+      <div class="view sheetview" id="v-speaker" hidden>
+        <button class="sheet-close" id="spk-close"><svg viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
+        <div id="spk-detail"></div>
+      </div>
+
+
+    <button class="fab" id="btn-mira" aria-label="Tanya Mira">
+      <svg viewBox="0 0 24 24"><path d="M21 12a8 8 0 01-11.6 7.1L4 20l1-4.6A8 8 0 1121 12z"/></svg>
+    </button>
+
+    <nav class="tabbar" id="tabbar">
+      <button class="tab on" data-v="home"><svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7M5 10v10h14V10"/></svg><span>Beranda</span></button>
+      <button class="tab" data-v="schedule"><svg viewBox="0 0 24 24"><path d="M8 2v4M16 2v4M3 9h18M5 4h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V6a2 2 0 012-2z"/></svg><span>Jadwal</span></button>
+      <button class="tab" data-v="saved"><svg viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg><span>Tersimpan</span><i class="tab-badge" id="saved-badge" hidden>0</i></button>
+      <button class="tab" data-v="speakers"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2M9 11a4 4 0 100-8 4 4 0 000 8zM23 21v-2a4 4 0 00-3-3.9M16 3.1a4 4 0 010 7.8"/></svg><span>Speaker</span></button>
+      <button class="tab" data-v="profile"><svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 100 18c1 0 1.5-.8 1.5-1.5 0-.4-.2-.8-.4-1.1-.3-.3-.4-.7-.4-1.1 0-.8.7-1.5 1.5-1.5H16a5 5 0 005-5c0-4.4-4-7.8-9-7.8z"/></svg><span>Profil</span></button>
+    </nav>
+  </section>
+
+  <!-- ============ DASHBOARD ADMIN ============ -->
+  <section class="screen admin" id="scr-admin" hidden>
+    <header class="appbar">
+      <div class="ab-left">
+        <button class="icon-btn" id="admin-back" aria-label="Kembali"><svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg></button>
+        <div class="logo sm">ADMIN <span>IDEATALKS</span></div>
+      </div>
+      <div class="ab-right">
+        <span class="admin-tab on" data-atab="ringkas">Ringkasan</span>
+        <span class="admin-tab" data-atab="orang">Pengunjung</span>
+        <span class="admin-tab" data-atab="tanya">Pertanyaan</span>
+        <span class="admin-tab" data-atab="materi">Materi</span>
+      </div>
+    </header>
+    <main class="scroll" id="admin-scroll">
+      <div class="view-head"><h2>Dashboard organiser</h2><p>Data pengunjung & perilaku chat, langsung dari app.</p></div>
+
+      <div class="adm-pane" data-pane="ringkas">
+        <div class="kpi-row" id="kpi-row"></div>
+        <div class="sec"><div class="sec-h"><h3>MINAT PENGUNJUNG</h3></div><div id="kpi-tracks"></div></div>
+        <div class="sec"><div class="sec-h"><h3>PERTANYAAN TERBANYAK</h3><span class="sec-note">dari chat Mira</span></div><div id="kpi-questions"></div></div>
+        <div class="sec"><div class="sec-h"><h3>JEJAK SESI PALING DISUKAI</h3></div><div id="kpi-sessions"></div></div>
+      </div>
+
+      <div class="adm-pane" data-pane="orang" hidden>
+        <div class="search-row">
+          <div class="search-box">
+            <svg viewBox="0 0 24 24"><path d="M11 19a8 8 0 100-16 8 8 0 000 16zM21 21l-4.3-4.3"/></svg>
+            <input id="q-visitors" type="search" placeholder="Cari pengunjung…">
+          </div>
+        </div>
+        <div id="kpi-visitors"></div>
+      </div>
+
+      <div class="adm-pane" data-pane="tanya" hidden>
+        <div class="sec-h" style="margin-bottom:12px"><h3>PERTANYAAN YANG PALING SERING</h3></div>
+        <div id="kpi-questions2"></div>
+        <div class="sec"><div class="sec-h"><h3>TEMA YANG BELUM TERJAWAB</h3></div><div class="list-card">
+          <div class="list-row"><span>Tiket &amp;副产品 acara</span><b>18×</b></div>
+          <div class="list-row"><span>Reimbursement</span><b>12×</b></div>
+          <div class="list-row"><span>Parkir &amp; akses gedung</span><b>9×</b></div>
+        </div></div>
+      </div>
+
+      <div class="adm-pane" data-pane="materi" hidden>
+        <div class="sec-h" style="margin-bottom:12px"><h3>MATERI ACARA</h3></div>
+        <div class="list-card" id="materi-list"></div>
+      </div>
+    </main>
+  </section>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

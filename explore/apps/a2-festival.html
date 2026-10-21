@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>IDEATALKS — Lineup</title>
+<style>
+@font-face{font-family:'Anton';src:url('fonts/anton.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:'InterV';src:url('fonts/inter.woff2') format('woff2');font-weight:100 900;font-display:swap}
+:root{
+  --navy:#0E1E4A;--cream:#F5F1E8;--pink:#E0449A;
+  --ink:#111;--muted:#5a5d68;--line:rgba(14,30,74,.13);
+  --sans:'InterV',system-ui,sans-serif;--display:'Anton',Impact,sans-serif;
+  --tr-b:#BE123C;--tr-f:#9A3412;--tr-a:#6D28D9;--tr-c:#0369A1;--tr-t:#047857;--tr-s:#A21CAF;--tr-m:#0F766E;--tr-p:#4338CA;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--sans);background:var(--navy);-webkit-font-smoothing:antialiased}
+.wrap{max-width:430px;margin:0 auto;min-height:100vh;background:var(--cream);position:relative;overflow:hidden}
+.page{position:relative;z-index:1;padding:0 16px 110px}
+/* masthead */
+.mast{background:var(--navy);color:var(--cream);padding:16px 16px 0;margin:0 -16px}
+.mast-top{display:flex;align-items:center;justify-content:space-between;padding-bottom:14px}
+.mast-top .b{font-family:var(--display);font-size:18px;letter-spacing:.02em}
+.mast-top .b em{font-style:normal;color:#FF7FC0}
+.chip-d{font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;border:1px solid rgba(245,241,232,.32);padding:5px 10px;border-radius:20px;color:rgba(245,241,232,.8)}
+.mast h1{font-family:var(--display);font-size:37px;line-height:.98;letter-spacing:-.005em;margin:6px 0 4px;text-transform:uppercase}
+.mast h1 span{display:block;color:#FF7FC0}
+.mast p{font-size:13.5px;line-height:1.55;color:rgba(245,241,232,.72);max-width:32ch;margin-bottom:16px}
+/* day tabs */
+.tabs{display:flex;gap:0;border-top:1px solid rgba(245,241,232,.16);margin:0 -16px;padding:0 16px}
+.tab{flex:1;padding:12px 4px;font-size:11.5px;letter-spacing:.1em;font-weight:700;color:rgba(245,241,232,.72);text-align:center;border-bottom:2px solid transparent}
+.tab.on{color:var(--cream);border-bottom-color:var(--pink)}
+.tab small{display:block;font-size:10px;letter-spacing:.04em;font-weight:500;margin-top:2px;color:rgba(245,241,232,.7)}
+.tab.on small{color:#FF9BCB}
+/* filter chips */
+.filters{display:flex;gap:7px;overflow-x:auto;scrollbar-width:none;padding:16px 16px 4px;margin:0 -16px}
+.filters::-webkit-scrollbar{display:none}
+.f{flex:0 0 auto;font-size:11.5px;font-weight:600;padding:7px 12px;border-radius:20px;border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer}
+.f.on{background:var(--navy);border-color:var(--navy);color:var(--cream)}
+/* grid of poster cards */
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin-top:14px}
+.card{border-radius:13px;padding:13px 13px 14px;min-height:154px;display:flex;flex-direction:column;position:relative;overflow:hidden;cursor:pointer}
+.card .time{font-family:var(--display);font-size:13px;letter-spacing:.02em;opacity:1}
+.card h4{font-size:15px;line-height:1.24;font-weight:700;margin-top:9px;letter-spacing:-.01em}
+.card .who{margin-top:auto;padding-top:11px;font-size:11px;line-height:1.4;opacity:.95}
+.card .who b{display:block;font-weight:700;opacity:.95}
+.card .rm{position:absolute;top:12px;right:12px;font-size:9.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;opacity:.85;background:rgba(0,0,0,.22);padding:2px 7px;border-radius:20px}
+.card.wide{grid-column:span 2;min-height:0;flex-direction:row;gap:14px;align-items:flex-end}
+.card.wide h4{font-size:20px;font-family:var(--serif,Georgia,serif);font-weight:400;line-height:1.3}
+.c-b{background:var(--tr-b);color:#fff}.c-f{background:var(--tr-f);color:#fff}.c-a{background:var(--tr-a);color:#fff}
+.c-c{background:var(--tr-c);color:#fff}.c-t{background:var(--tr-t);color:#fff}.c-s{background:var(--tr-s);color:#fff}
+.c-m{background:var(--tr-m);color:#fff}.c-p{background:var(--tr-p);color:#fff}
+.inkcard{background:var(--navy);color:var(--cream)}
+.inkcard .rm{background:rgba(245,241,232,.16)}
+.pinkcard{background:#BE185D;color:#fff}
+.pinkcard .rm{background:rgba(0,0,0,.2)}
+/* now strip */
+.now{display:flex;align-items:center;gap:9px;margin-top:16px;padding:11px 14px;background:var(--white);border:1px solid var(--line);border-radius:12px}
+.now .dot{width:8px;height:8px;border-radius:50%;background:var(--pink);box-shadow:0 0 0 4px rgba(224,68,154,.18)}
+.now p{font-size:12.5px;color:#3a3d46;line-height:1.4}
+.now b{color:var(--navy)}
+/* nav */
+.nav{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:430px;background:var(--navy);display:flex;padding:7px 8px calc(7px + env(safe-area-inset-bottom));z-index:20}
+.nav a{flex:1;display:grid;place-items:center;gap:2px;font-size:10px;color:rgba(245,241,232,.5);text-decoration:none;font-weight:600;letter-spacing:.02em}
+.nav a.on{color:#FF7FC0}
+.nav svg{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+/* assistant bottom sheet */
+.ask{position:fixed;left:0;right:0;bottom:58px;max-width:430px;margin:0 auto;padding:0 14px 10px;z-index:19}
+.askbar{display:flex;gap:8px;align-items:center;background:var(--white);border:1px solid var(--line);border-radius:26px;padding:7px 8px 7px 16px;box-shadow:0 8px 26px rgba(14,30,74,.16)}
+.askbar input{flex:1;border:none;outline:none;font-family:var(--sans);font-size:13.5px;color:var(--ink);background:transparent}
+.askbar button{width:36px;height:36px;border-radius:50%;border:none;background:var(--pink);color:#fff;font-size:16px;cursor:pointer;flex:0 0 auto}
+@media(min-width:700px){.wrap{box-shadow:0 0 80px rgba(0,0,0,.4)}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="page">
+    <div class="mast">
+      <div class="mast-top">
+        <div class="b">IDEATALKS <em>SUB</em></div>
+        <div class="chip-d">6–8 Agu 2027</div>
+      </div>
+      <h1>109 Sesi<span>3 Hari</span></h1>
+      <p>Acak-acak aja: pilih track, tap kartunya, atau tanya si-Mira langsung.</p>
+      <div class="tabs">
+        <div class="tab on">DAY 1<small>Sab, 6 Agu</small></div>
+        <div class="tab">DAY 2<small>Min, 7 Agu</small></div>
+        <div class="tab">DAY 3<small>Sen, 8 Agu</small></div>
+      </div>
+    </div>
+
+    <div class="filters">
+      <button class="f on">Semua</button>
+      <button class="f">Bisnis</button>
+      <button class="f">Teknologi</button>
+      <button class="f">Content</button>
+      <button class="f">Art &amp; Culture</button>
+      <button class="f">FnB</button>
+      <button class="f">Mental Health</button>
+      <button class="f">Policy</button>
+    </div>
+
+    <div class="now">
+      <div class="dot"></div>
+      <p><b>Sekarang (10:42)</b> — “Strategi Harga untuk Produk Lokal” baru mulai di Diamond 2.</p>
+    </div>
+
+    <div class="grid">
+      <div class="card c-b">
+        <div class="rm">Diamond 2</div>
+        <div class="time">09:30</div>
+        <h4>Menemukan Orang Pertama untuk Usaha</h4>
+        <div class="who"><b>Yoga Wicaksono</b>Brand Strategist</div>
+      </div>
+      <div class="card c-t">
+        <div class="rm">Crystal 1</div>
+        <div class="time">09:30</div>
+        <h4>AI untuk UMKM: Tools yang Selesai Dipakai</h4>
+        <div class="who"><b>Indra Budiono</b>Tech Lead</div>
+      </div>
+      <div class="card c-a">
+        <div class="rm">Studio</div>
+        <div class="time">10:30</div>
+        <h4>Karakter Pertamamu ke Layar</h4>
+        <div class="who"><b>Edwin Tranggono</b>Creative Director</div>
+      </div>
+      <div class="card c-c">
+        <div class="rm">Origin</div>
+        <div class="time">10:30</div>
+        <h4>Konten yang Berbisnis</h4>
+        <div class="who"><b>Stefani Gabriela</b>Content Creator</div>
+      </div>
+
+      <div class="card wide pinkcard">
+        <div style="flex:1">
+          <div class="rm" style="position:static;opacity:.7">Rekomendasi Mira</div>
+          <h4>“Mau.after lunch, yang soal harga. Dan jangan lupa ada drinks.”</h4>
+          <div class="who" style="opacity:.9"><b>3 sesiSusun 13:30 · 14:30 · 16:30</b>tanpa tabrakan</div>
+        </div>
+      </div>
+
+      <div class="card c-f">
+        <div class="rm">Crystal 1</div>
+        <div class="time">11:30</div>
+        <h4>Dari Dapur ke Rumah Brand</h4>
+        <div class="who"><b>Ferry Siswadi</b>Director, Bu Rudy Group</div>
+      </div>
+      <div class="card c-s">
+        <div class="rm">Diamond 3</div>
+        <div class="time">11:30</div>
+        <h4>Belajar Mandarin</h4>
+        <div class="who"><b>Aristia Chen</b>CMO, Mazuta Group</div>
+      </div>
+      <div class="card inkcard">
+        <div class="rm">Rooftop</div>
+        <div class="time">12:30</div>
+        <h4>Policy: Kota yang Melayani Semua</h4>
+        <div class="who"><b>M. Ali Affandi</b>Chairman, Kadin Surabaya</div>
+      </div>
+      <div class="card c-m">
+        <div class="rm">Crystal 1</div>
+        <div class="time">12:30</div>
+        <h4>Dari Sadar ke Aksi</h4>
+        <div class="who"><b>Mathina</b>Founder, FablyMe</div>
+      </div>
+      <div class="card c-b">
+        <div class="rm">Origin</div>
+        <div class="time">13:30</div>
+        <h4>Negosiasi yang Mengubah Harga</h4>
+        <div class="who"><b>Alya Pratama</b>CEO, Krakatau Digital</div>
+      </div>
+      <div class="card c-t">
+        <div class="rm">Crystal 2</div>
+        <div class="time">13:30</div>
+        <h4>Dari Campus ke Market</h4>
+        <div class="who"><b>Arief Budiono</b>Ketua Ekosistem Startup</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ask">
+    <div class="askbar">
+      <input placeholder="Tanya Mira: sesi, speakers, ruangan…">
+      <button>↑</button>
+    </div>
+  </div>
+
+  <nav class="nav">
+    <a href="#" class="on"><svg viewBox="0 0 24 24"><path d="M4 4h7v7H4zM13 4h7v4h-7zM13 10h7v10h-7zM4 13h7v7H4z"/></svg>LINEUP</a>
+    <a href="#"><svg viewBox="0 0 24 24"><path d="M8 2v4M16 2v4M3 9h18M5 4h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V6a2 2 0 012-2z"/></svg>JADWAL</a>
+    <a href="#"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2M9 11a4 4 0 100-8 4 4 0 000 8zM23 21v-2a4 4 0 00-3-3.87"/></svg>ORANG</a>
+    <a href="#"><svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 100 18c1 0 1.5-.8 1.5-1.5 0-.4-.2-.8-.4-1.1-.3-.3-.4-.7-.4-1.1 0-.8.7-1.5 1.5-1.5H16a5 5 0 005-5c0-4.4-4-7.8-9-7.8z"/></svg>MIRA</a>
+  </nav>
+</div>
+</body>
+</html>

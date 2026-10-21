@@ -1,0 +1,2477 @@
+{
+ "days": [
+  {
+   "day": 1,
+   "date": "2027-08-06",
+   "dayLabel": "Day 1",
+   "sessions": [
+    {
+     "id": "d1-s1-origin",
+     "time": "09:30-10:20",
+     "timeStart": "09:30",
+     "timeEnd": "10:20",
+     "room": "Room Origin",
+     "roomShort": "Origin",
+     "title": "Dari Dapur ke Rumah Brand: Membesarkan F&B Lokal",
+     "track": "FnB",
+     "speakers": [
+      {
+       "name": "Bunga Wulandari",
+       "role": "Co-Founder at Nusantara EduTech"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s2-1",
+     "time": "10:30-11:20",
+     "timeStart": "10:30",
+     "timeEnd": "11:20",
+     "room": "Room Crystal 1",
+     "roomShort": "Crystal 1",
+     "title": "Dari Campus ke Market: Komersialisasi Inovasi",
+     "track": "Teknologi",
+     "speakers": [
+      {
+       "name": "Gita Nugrohi",
+       "role": "Head of Product at Bunga Kita Group"
+      },
+      {
+       "name": "Joko Saputra",
+       "role": "Co-Founder at Pesisir Foods"
+      },
+      {
+       "name": "Dimas Permata",
+       "role": "CEO at Sumbergx"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s3-2",
+     "time": "11:30-12:20",
+     "timeStart": "11:30",
+     "timeEnd": "12:20",
+     "room": "Room Crystal 2",
+     "roomShort": "Crystal 2",
+     "title": "Keputusan yang Memengaruhi Banyak Orang",
+     "track": "Policy Making",
+     "speakers": [
+      {
+       "name": "Dimas Chandra",
+       "role": "Wellness Coach at Levi Works"
+      },
+      {
+       "name": "Oka Santoso",
+       "role": "Community Manager at Bunga Kita Group"
+      },
+      {
+       "name": "Nanda Oktaviani",
+       "role": "Content Creator at Bunga Kita Group"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s4-3",
+     "time": "13:30-14:20",
+     "timeStart": "13:30",
+     "timeEnd": "14:20",
+     "room": "Room Crystal 3",
+     "roomShort": "Crystal 3",
+     "title": "Menjualskan Karakter Pertamamu ke Layar",
+     "track": "Art & Culture",
+     "speakers": [
+      {
+       "name": "Mira Hartati",
+       "role": "Creative Director at Angin Labs"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s5-1",
+     "time": "14:30-15:20",
+     "timeStart": "14:30",
+     "timeEnd": "15:20",
+     "room": "Room Diamond 1",
+     "roomShort": "Diamond 1",
+     "title": "Belajar Mandarin sebagai Langkah Karier",
+     "track": "Self Development",
+     "speakers": [
+      {
+       "name": "Laras Budiono",
+       "role": "Head of Product at Bintang PDFs"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s6-2",
+     "time": "15:30-16:20",
+     "timeStart": "15:30",
+     "timeEnd": "16:20",
+     "room": "Room Diamond 2",
+     "roomShort": "Diamond 2",
+     "title": "Menemukan Orang Pertama untuk Usaha yang Terus Tumbuh",
+     "track": "Bisnis",
+     "speakers": [
+      {
+       "name": "Gita Oktaviani",
+       "role": "Head of Product at Lentera Data"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s7-3",
+     "time": "16:30-17:20",
+     "timeStart": "16:30",
+     "timeEnd": "17:20",
+     "room": "Room Diamond 3",
+     "roomShort": "Diamond 3",
+     "title": "Membangun Personal Brand yang Konsisten",
+     "track": "Content",
+     "speakers": [
+      {
+       "name": "Mira Gunawan",
+       "role": "CEO at Bunga Kita Group"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s8-hall",
+     "time": "17:30-18:20",
+     "timeStart": "17:30",
+     "timeEnd": "18:20",
+     "room": "Grand Hall",
+     "roomShort": "Grand Hall",
+     "title": "Dari Sadar ke Aksi: Kesehatan Mental yang Jalan",
+     "track": "Mental Health",
+     "speakers": [
+      {
+       "name": "Intan Maulana",
+       "role": "Director at Tegar Farm"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s9-corner",
+     "time": "09:30-10:20",
+     "timeStart": "09:30",
+     "timeEnd": "10:20",
+     "room": "Studio Corner",
+     "roomShort": "Studio Corner",
+     "title": "Kopi dan Cerita: Menyusun Menu yang Menghoyok",
+     "track": "FnB",
+     "speakers": [
+      {
+       "name": "Oktavia Wicaksono",
+       "role": "Tech Lead at Bintang PDFs"
+      },
+      {
+       "name": "Putri Lazuardi",
+       "role": "Head of Marketing at Sumbergx"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s10-terrace",
+     "time": "10:30-11:20",
+     "timeStart": "10:30",
+     "timeEnd": "11:20",
+     "room": "Rooftop Terrace",
+     "roomShort": "Rooftop Terrace",
+     "title": "AI untuk UMKM: Tools yang Selesai Dipakai",
+     "track": "Teknologi",
+     "speakers": [
+      {
+       "name": "Ulfa Kusuma",
+       "role": "Event Organizer at Gemilang Foods"
+      },
+      {
+       "name": "Zaki Lestari",
+       "role": "Founder & CEO at Nusantara EduTech"
+      },
+      {
+       "name": "Hana Maharani",
+       "role": "Investment Manager at Sidoarjo Ventures"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s11-origin",
+     "time": "11:30-12:20",
+     "timeStart": "11:30",
+     "timeEnd": "12:20",
+     "room": "Room Origin",
+     "roomShort": "Origin",
+     "title": "Kebijakan yang Dijalankan, Bukan Hanya Diomong",
+     "track": "Policy Making",
+     "speakers": [
+      {
+       "name": "Intan Permata",
+       "role": "Co-Founder at Nusantara EduTech"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s12-1",
+     "time": "13:30-14:20",
+     "timeStart": "13:30",
+     "timeEnd": "14:20",
+     "room": "Room Crystal 1",
+     "roomShort": "Crystal 1",
+     "title": "Poster, Config, dan Bahasa Visual Era Baru",
+     "track": "Art & Culture",
+     "speakers": [
+      {
+       "name": "Eni Wicahana",
+       "role": "Brand Strategist at Gemilang Foods"
+      },
+      {
+       "name": "Wira Hidayat",
+       "role": "Creative Lead at Sagara Group"
+      },
+      {
+       "name": "Oktavia Pratama",
+       "role": "Public Figure at Nusantara EduTech"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s13-2",
+     "time": "14:30-15:20",
+     "timeStart": "14:30",
+     "timeEnd": "15:20",
+     "room": "Room Crystal 2",
+     "roomShort": "Crystal 2",
+     "title": "Membaca Orang: Kecakapan Sosial yang Berharga",
+     "track": "Self Development",
+     "speakers": [
+      {
+       "name": "Hesti Safira",
+       "role": "Business Analyst at Nusantara EduTech"
+      },
+      {
+       "name": "Dinda Prasetyo",
+       "role": "Startup Coach at Bintang PDFs"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s14-3",
+     "time": "15:30-16:20",
+     "timeStart": "15:30",
+     "timeEnd": "16:20",
+     "room": "Room Crystal 3",
+     "roomShort": "Crystal 3",
+     "title": "Dari Produk Jadi Permintaan: Pasar yang Tidak pernah Habis",
+     "track": "Bisnis",
+     "speakers": [
+      {
+       "name": "Taufik Gunawan",
+       "role": "Content Creator at Kita Berkarya"
+      },
+      {
+       "name": "Bagas Wicaksono",
+       "role": "Tech Lead at Sidoarjo Ventures"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s15-1",
+     "time": "16:30-17:20",
+     "timeStart": "16:30",
+     "timeEnd": "17:20",
+     "room": "Room Diamond 1",
+     "roomShort": "Diamond 1",
+     "title": "Konten yang Berbisnis: Dari Story ke Offer",
+     "track": "Content",
+     "speakers": [
+      {
+       "name": "Intan Chandra",
+       "role": "Community Lead at Angin Labs"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s16-2",
+     "time": "17:30-18:20",
+     "timeStart": "17:30",
+     "timeEnd": "18:20",
+     "room": "Room Diamond 2",
+     "roomShort": "Diamond 2",
+     "title": "Dokter Jaga Hour: Menjaga Saat Overload",
+     "track": "Mental Health",
+     "speakers": [
+      {
+       "name": "Bunga Ardiansyah",
+       "role": "Social Impact Lead at Sagara Group"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s17-3",
+     "time": "09:30-10:20",
+     "timeStart": "09:30",
+     "timeEnd": "10:20",
+     "room": "Room Diamond 3",
+     "roomShort": "Diamond 3",
+     "title": "Omzet Naik tanpa Tambah Produk",
+     "track": "FnB",
+     "speakers": [
+      {
+       "name": "Fitri Ardiansyah",
+       "role": "Director at Teluk Learn"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s18-hall",
+     "time": "10:30-11:20",
+     "timeStart": "10:30",
+     "timeEnd": "11:20",
+     "room": "Grand Hall",
+     "roomShort": "Grand Hall",
+     "title": "Membangun SaaS di Indonesia",
+     "track": "Teknologi",
+     "speakers": [
+      {
+       "name": "Mira Wibowo",
+       "role": "Startup Coach at Cahaya Prima"
+      },
+      {
+       "name": "Yoga Maulana",
+       "role": "Founder of Studio at Senja Labs"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s19-corner",
+     "time": "11:30-12:20",
+     "timeStart": "11:30",
+     "timeEnd": "12:20",
+     "room": "Studio Corner",
+     "roomShort": "Studio Corner",
+     "title": "Partisipasi di Ruang Keputusan",
+     "track": "Policy Making",
+     "speakers": [
+      {
+       "name": "Fajar Nugroho",
+       "role": "Creative Director at KopiKita"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s20-terrace",
+     "time": "13:30-14:20",
+     "timeStart": "13:30",
+     "timeEnd": "14:20",
+     "room": "Rooftop Terrace",
+     "roomShort": "Rooftop Terrace",
+     "title": "Karya yang Jalan: Menjual Seni sebagai Produk",
+     "track": "Art & Culture",
+     "speakers": [
+      {
+       "name": "Alya Setiawan",
+       "role": "Wellness Coach at Gema Media"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s21-origin",
+     "time": "14:30-15:20",
+     "timeStart": "14:30",
+     "timeEnd": "15:20",
+     "room": "Room Origin",
+     "roomShort": "Origin",
+     "title": "Kebiasaan Kecil yang Mengubah Setahun",
+     "track": "Self Development",
+     "speakers": [
+      {
+       "name": "Alya Jiang",
+       "role": "Investment Manager at Makara Studio"
+      },
+      {
+       "name": "Rizky Dewi",
+       "role": "Brand Strategist at Tembakau Labs"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s22-1",
+     "time": "15:30-16:20",
+     "timeStart": "15:30",
+     "timeEnd": "16:20",
+     "room": "Room Crystal 1",
+     "roomShort": "Crystal 1",
+     "title": "Menskalakan Usaha Tanpa Hiring Terlalu Banyak",
+     "track": "Bisnis",
+     "speakers": [
+      {
+       "name": "Tio Maulana",
+       "role": "Marketing Director at Bunga Kita Group"
+      },
+      {
+       "name": "Gilang Pranoto",
+       "role": "Art Director at Rimba Works"
+      },
+      {
+       "name": "Bunga Gabriela",
+       "role": "Event Organizer at Rimba Works"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s23-2",
+     "time": "16:30-17:20",
+     "timeStart": "16:30",
+     "timeEnd": "17:20",
+     "room": "Room Crystal 2",
+     "roomShort": "Crystal 2",
+     "title": "Video Pendek yang Rata-rata Nonton",
+     "track": "Content",
+     "speakers": [
+      {
+       "name": "Eka Saputra",
+       "role": "Public Figure at Sidoarjo Ventures"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s24-3",
+     "time": "17:30-18:20",
+     "timeStart": "17:30",
+     "timeEnd": "18:20",
+     "room": "Room Crystal 3",
+     "roomShort": "Crystal 3",
+     "title": "Psikologi untuk Pebisnis",
+     "track": "Mental Health",
+     "speakers": [
+      {
+       "name": "Panji Chandra",
+       "role": "CMO at Nusantara Labs"
+      },
+      {
+       "name": "Nanda Jiang",
+       "role": "Director at Ruang Kita"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s25-1",
+     "time": "09:30-10:20",
+     "timeStart": "09:30",
+     "timeEnd": "10:20",
+     "room": "Room Diamond 1",
+     "roomShort": "Diamond 1",
+     "title": "Branding untuk Kedai yang Baru Buka",
+     "track": "FnB",
+     "speakers": [
+      {
+       "name": "Bagas Akwilla",
+       "role": "Policy Advisor at Bambu Studio"
+      },
+      {
+       "name": "Rizky Puspita",
+       "role": "Creative Director at Cendana Group"
+      },
+      {
+       "name": "Yoga Syahputra",
+       "role": "Tech Lead at Cerdas Media"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s26-2",
+     "time": "10:30-11:20",
+     "timeStart": "10:30",
+     "timeEnd": "11:20",
+     "room": "Room Diamond 2",
+     "roomShort": "Diamond 2",
+     "title": "Data yang Bisa Dipercaya",
+     "track": "Teknologi",
+     "speakers": [
+      {
+       "name": "Intan Wicaksono",
+       "role": "Event Organizer at Cerdas Media"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s27-3",
+     "time": "11:30-12:20",
+     "timeStart": "11:30",
+     "timeEnd": "12:20",
+     "room": "Room Diamond 3",
+     "roomShort": "Diamond 3",
+     "title": "Arah Kota: Desain yang Melayani Semua",
+     "track": "Policy Making",
+     "speakers": [
+      {
+       "name": "Jihan Gabriela",
+       "role": "Marketing Director at Gemilang Foods"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s28-hall",
+     "time": "13:30-14:20",
+     "timeStart": "13:30",
+     "timeEnd": "14:20",
+     "room": "Grand Hall",
+     "roomShort": "Grand Hall",
+     "title": "Musik, Kategori, dan Penonton Baru",
+     "track": "Art & Culture",
+     "speakers": [
+      {
+       "name": "Hesti Baskoro",
+       "role": "Startup Coach at Sidoarjo Ventures"
+      },
+      {
+       "name": "Krisna Cecilia",
+       "role": "Community Lead at Makara Studio"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s29-corner",
+     "time": "14:30-15:20",
+     "timeStart": "14:30",
+     "timeEnd": "15:20",
+     "room": "Studio Corner",
+     "roomShort": "Studio Corner",
+     "title": "Bekerja dengan Energi: Memulihkan Waktu",
+     "track": "Self Development",
+     "speakers": [
+      {
+       "name": "Bagas Amalia",
+       "role": "Consultant at Bintang PDFs"
+      },
+      {
+       "name": "Tio Pranoto",
+       "role": "CEO at Cendana Group"
+      },
+      {
+       "name": "Krisna Nugrohi",
+       "role": "Social Impact Lead at Sidoarjo Ventures"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s30-terrace",
+     "time": "15:30-16:20",
+     "timeStart": "15:30",
+     "timeEnd": "16:20",
+     "room": "Rooftop Terrace",
+     "roomShort": "Rooftop Terrace",
+     "title": "Negosiasi yang Mengubah Harga",
+     "track": "Bisnis",
+     "speakers": [
+      {
+       "name": "Laras Rahmawati",
+       "role": "Art Director at Gemilang Foods"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s31-origin",
+     "time": "16:30-17:20",
+     "timeStart": "16:30",
+     "timeEnd": "17:20",
+     "room": "Room Origin",
+     "roomShort": "Origin",
+     "title": "Menulis untuk Dengerin, Bukan untuk Skor",
+     "track": "Content",
+     "speakers": [
+      {
+       "name": "Rizky Pratama",
+       "role": "Music Producer at Lentera Data"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s32-1",
+     "time": "17:30-18:20",
+     "timeStart": "17:30",
+     "timeEnd": "18:20",
+     "room": "Room Crystal 1",
+     "roomShort": "Crystal 1",
+     "title": "Ruang Aman di Kantor",
+     "track": "Mental Health",
+     "speakers": [
+      {
+       "name": "Bayu Pratama",
+       "role": "Product Manager at Lentera Data"
+      },
+      {
+       "name": "Krisna Setiawan",
+       "role": "Tech Lead at Krakatau Digital"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s33-2",
+     "time": "09:30-10:20",
+     "timeStart": "09:30",
+     "timeEnd": "10:20",
+     "room": "Room Crystal 2",
+     "roomShort": "Crystal 2",
+     "title": "UMKM F&B diBursa dan Media Sosial",
+     "track": "FnB",
+     "speakers": [
+      {
+       "name": "Hesti Kusuma",
+       "role": "Community Lead at Kita Berkarya"
+      },
+      {
+       "name": "Fitri Pratama",
+       "role": "Social Impact Lead at Kita Berkarya"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    },
+    {
+     "id": "d1-s34-3",
+     "time": "10:30-11:20",
+     "timeStart": "10:30",
+     "timeEnd": "11:20",
+     "room": "Room Crystal 3",
+     "roomShort": "Crystal 3",
+     "title": "Keamanan Sederhana untuk Produk Kecil",
+     "track": "Teknologi",
+     "speakers": [
+      {
+       "name": "Oka Gabriela",
+       "role": "Product Manager at Cerdas Media"
+      }
+     ],
+     "status": "confirmed",
+     "day": 1
+    }
+   ]
+  },
+  {
+   "day": 2,
+   "date": "2027-08-07",
+   "dayLabel": "Day 2",
+   "sessions": [
+    {
+     "id": "d2-s1-origin",
+     "time": "09:30-10:20",
+     "timeStart": "09:30",
+     "timeEnd": "10:20",
+     "room": "Room Origin",
+     "roomShort": "Origin",
+     "title": "Panggung Indie di Tengah Kota",
+     "track": "Art & Culture",
+     "speakers": [
+      {
+       "name": "Nanda Anggraini",
+       "role": "Creative Lead at Nusantara Labs"
+      },
+      {
+       "name": "Hesti Wulandari",
+       "role": "Tech Lead at Pesisir Foods"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s2-1",
+     "time": "10:30-11:20",
+     "timeStart": "10:30",
+     "timeEnd": "11:20",
+     "room": "Room Crystal 1",
+     "roomShort": "Crystal 1",
+     "title": "Karakter dalam Kurang Waktu",
+     "track": "Self Development",
+     "speakers": [
+      {
+       "name": "Andra Lazuardi",
+       "role": "Startup Coach at Lentera Data"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s3-2",
+     "time": "11:30-12:20",
+     "timeStart": "11:30",
+     "timeEnd": "12:20",
+     "room": "Room Crystal 2",
+     "roomShort": "Crystal 2",
+     "title": "Strategi Harga untuk Produk Lokal",
+     "track": "Bisnis",
+     "speakers": [
+      {
+       "name": "Dimas Lazuardi",
+       "role": "Community Manager at Gemilang Foods"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s4-3",
+     "time": "13:30-14:20",
+     "timeStart": "13:30",
+     "timeEnd": "14:20",
+     "room": "Room Crystal 3",
+     "roomShort": "Crystal 3",
+     "title": "Kanal Kedua: Tumbuh dari Audiens Pertama",
+     "track": "Content",
+     "speakers": [
+      {
+       "name": "Gilang Ardiansyah",
+       "role": "Marketing Director at Pesisir Foods"
+      },
+      {
+       "name": "Zaki Wijaya",
+       "role": "Head of Marketing at Tembakau Labs"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s5-1",
+     "time": "14:30-15:20",
+     "timeStart": "14:30",
+     "timeEnd": "15:20",
+     "room": "Room Diamond 1",
+     "roomShort": "Diamond 1",
+     "title": "Self-care yang Bukan Sekadar Spa",
+     "track": "Mental Health",
+     "speakers": [
+      {
+       "name": "Farhan Wulandari",
+       "role": "Creative Director at Cerdas Media"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s6-2",
+     "time": "15:30-16:20",
+     "timeStart": "15:30",
+     "timeEnd": "16:20",
+     "room": "Room Diamond 2",
+     "roomShort": "Diamond 2",
+     "title": "Masa Panen Brand F&B Lokal",
+     "track": "FnB",
+     "speakers": [
+      {
+       "name": "Mira Firmansyah",
+       "role": "Creative Director at Krakatau Digital"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s7-3",
+     "time": "16:30-17:20",
+     "timeStart": "16:30",
+     "timeEnd": "17:20",
+     "room": "Room Diamond 3",
+     "roomShort": "Diamond 3",
+     "title": "Open Source untuk Perusahaan Kecil",
+     "track": "Teknologi",
+     "speakers": [
+      {
+       "name": "Krisna Wulandari",
+       "role": "Social Impact Lead at Tembakau Labs"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s8-hall",
+     "time": "17:30-18:20",
+     "timeStart": "17:30",
+     "timeEnd": "18:20",
+     "room": "Grand Hall",
+     "roomShort": "Grand Hall",
+     "title": "Keputusan yang Memengaruhi Banyak Orang",
+     "track": "Policy Making",
+     "speakers": [
+      {
+       "name": "Nanda Cecilia",
+       "role": "Researcher at Bambu Studio"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s9-corner",
+     "time": "09:30-10:20",
+     "timeStart": "09:30",
+     "timeEnd": "10:20",
+     "room": "Studio Corner",
+     "roomShort": "Studio Corner",
+     "title": "Naratif Visual: Dari Data ke Cerita",
+     "track": "Art & Culture",
+     "speakers": [
+      {
+       "name": "Putri Amalia",
+       "role": "Head of Product at Terang Digital"
+      },
+      {
+       "name": "Raka Rahmawati",
+       "role": "Investment Manager at Tembakau Labs"
+      },
+      {
+       "name": "Dinda Wulandari",
+       "role": "Tech Lead at Harum Foods"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s10-terrace",
+     "time": "10:30-11:20",
+     "timeStart": "10:30",
+     "timeEnd": "11:20",
+     "room": "Rooftop Terrace",
+     "roomShort": "Rooftop Terrace",
+     "title": "Menghadapi Perubahan Tanpa Drama",
+     "track": "Self Development",
+     "speakers": [
+      {
+       "name": "Gilang Kusuma",
+       "role": "Investment Manager at Tembakau Labs"
+      },
+      {
+       "name": "Laras Jiang",
+       "role": "Consultant at Krakatau Digital"
+      },
+      {
+       "name": "Fitri Sukmana",
+       "role": "Head of Marketing at Nusantara Labs"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s11-origin",
+     "time": "11:30-12:20",
+     "timeStart": "11:30",
+     "timeEnd": "12:20",
+     "room": "Room Origin",
+     "roomShort": "Origin",
+     "title": "Membangun Tim yang Bertahan Lima Tahun",
+     "track": "Bisnis",
+     "speakers": [
+      {
+       "name": "Jihan Anggraini",
+       "role": "Creative Lead at Levi Works"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s12-1",
+     "time": "13:30-14:20",
+     "timeStart": "13:30",
+     "timeEnd": "14:20",
+     "room": "Room Crystal 1",
+     "roomShort": "Crystal 1",
+     "title": "Live Streaming sebagai Produk",
+     "track": "Content",
+     "speakers": [
+      {
+       "name": "Vino Maulana",
+       "role": "Consultant at Cerdas Media"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s13-2",
+     "time": "14:30-15:20",
+     "timeStart": "14:30",
+     "timeEnd": "15:20",
+     "room": "Room Crystal 2",
+     "roomShort": "Crystal 2",
+     "title": "Dari Sadar ke Aksi: Kesehatan Mental yang Jalan",
+     "track": "Mental Health",
+     "speakers": [
+      {
+       "name": "Dinda Hartono",
+       "role": "Community Lead at Teluk Learn"
+      },
+      {
+       "name": "Cahya Sukmana",
+       "role": "CMO at Nusa Byte"
+      },
+      {
+       "name": "Mira Cecilia",
+       "role": "Art Director at Nusantara EduTech"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s14-3",
+     "time": "15:30-16:20",
+     "timeStart": "15:30",
+     "timeEnd": "16:20",
+     "room": "Room Crystal 3",
+     "roomShort": "Crystal 3",
+     "title": "Harness untuk Dapur Komersial",
+     "track": "FnB",
+     "speakers": [
+      {
+       "name": "Rizky Maharani",
+       "role": "Creative Lead at Lentera Data"
+      },
+      {
+       "name": "Wira Wibowo",
+       "role": "Public Figure at Cerdas Media"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s15-1",
+     "time": "16:30-17:20",
+     "timeStart": "16:30",
+     "timeEnd": "17:20",
+     "room": "Room Diamond 1",
+     "roomShort": "Diamond 1",
+     "title": "Teknologi di Sektor Kreatif",
+     "track": "Teknologi",
+     "speakers": [
+      {
+       "name": "Wira Kusuma",
+       "role": "Founder of Studio at Cendana Group"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s16-2",
+     "time": "17:30-18:20",
+     "timeStart": "17:30",
+     "timeEnd": "18:20",
+     "room": "Room Diamond 2",
+     "roomShort": "Diamond 2",
+     "title": "Kebijakan yang Dijalankan, Bukan Hanya Diomong",
+     "track": "Policy Making",
+     "speakers": [
+      {
+       "name": "Indra Permata",
+       "role": "CMO at Rimba Works"
+      },
+      {
+       "name": "Fitri Susanto",
+       "role": "CEO at Sumbergx"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s17-3",
+     "time": "09:30-10:20",
+     "timeStart": "09:30",
+     "timeEnd": "10:20",
+     "room": "Room Diamond 3",
+     "roomShort": "Diamond 3",
+     "title": "Menjualskan Karakter Pertamamu ke Layar",
+     "track": "Art & Culture",
+     "speakers": [
+      {
+       "name": "Nanda Nugroho",
+       "role": "Founder & CEO at Levi Works"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s18-hall",
+     "time": "10:30-11:20",
+     "timeStart": "10:30",
+     "timeEnd": "11:20",
+     "room": "Grand Hall",
+     "roomShort": "Grand Hall",
+     "title": "Belajar Mandarin sebagai Langkah Karier",
+     "track": "Self Development",
+     "speakers": [
+      {
+       "name": "Jihan Kusuma",
+       "role": "Founder of Studio at Tembakau Labs"
+      },
+      {
+       "name": "Gilang Ramadhan",
+       "role": "Marketing Director at Ruang Kita"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s19-corner",
+     "time": "11:30-12:20",
+     "timeStart": "11:30",
+     "timeEnd": "12:20",
+     "room": "Studio Corner",
+     "roomShort": "Studio Corner",
+     "title": "UMKM dan Pembeli Besar: Menembus Komposisi",
+     "track": "Bisnis",
+     "speakers": [
+      {
+       "name": "Kirana Nugroho",
+       "role": "Wellness Coach at KopiKita"
+      },
+      {
+       "name": "Kirana Gunawan",
+       "role": "Investment Manager at Rimba Works"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s20-terrace",
+     "time": "13:30-14:20",
+     "timeStart": "13:30",
+     "timeEnd": "14:20",
+     "room": "Rooftop Terrace",
+     "roomShort": "Rooftop Terrace",
+     "title": "Membangun Personal Brand yang Konsisten",
+     "track": "Content",
+     "speakers": [
+      {
+       "name": "Maya Hidayat",
+       "role": "Brand Strategist at Pesisir Foods"
+      },
+      {
+       "name": "Zaki Nugrohi",
+       "role": "Founder at Gemilang Foods"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s21-origin",
+     "time": "14:30-15:20",
+     "timeStart": "14:30",
+     "timeEnd": "15:20",
+     "room": "Room Origin",
+     "roomShort": "Origin",
+     "title": "Dokter Jaga Hour: Menjaga Saat Overload",
+     "track": "Mental Health",
+     "speakers": [
+      {
+       "name": "Fitri Gunawan",
+       "role": "Founder at Senja Labs"
+      },
+      {
+       "name": "Wulan Kusuma",
+       "role": "Creative Lead at Angin Labs"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s22-1",
+     "time": "15:30-16:20",
+     "timeStart": "15:30",
+     "timeEnd": "16:20",
+     "room": "Room Crystal 1",
+     "roomShort": "Crystal 1",
+     "title": "Mengajar dari Sherry: Cerita di Balik Brand",
+     "track": "FnB",
+     "speakers": [
+      {
+       "name": "Eni Ramadhan",
+       "role": "Founder of Studio at Ruang Kita"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s23-2",
+     "time": "16:30-17:20",
+     "timeStart": "16:30",
+     "timeEnd": "17:20",
+     "room": "Room Crystal 2",
+     "roomShort": "Crystal 2",
+     "title": "Dari Campus ke Market: Komersialisasi Inovasi",
+     "track": "Teknologi",
+     "speakers": [
+      {
+       "name": "Sari Soebijandono",
+       "role": "Founder of Studio at Gema Media"
+      },
+      {
+       "name": "Sari Amalia",
+       "role": "Creative Director at Tegar Farm"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s24-3",
+     "time": "17:30-18:20",
+     "timeStart": "17:30",
+     "timeEnd": "18:20",
+     "room": "Room Crystal 3",
+     "roomShort": "Crystal 3",
+     "title": "Partisipasi di Ruang Keputusan",
+     "track": "Policy Making",
+     "speakers": [
+      {
+       "name": "Jihan Rahmawati",
+       "role": "Social Impact Lead at Sagara Group"
+      },
+      {
+       "name": "Wira Susanto",
+       "role": "CEO at Teluk Learn"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s25-1",
+     "time": "09:30-10:20",
+     "timeStart": "09:30",
+     "timeEnd": "10:20",
+     "room": "Room Diamond 1",
+     "roomShort": "Diamond 1",
+     "title": "Poster, Config, dan Bahasa Visual Era Baru",
+     "track": "Art & Culture",
+     "speakers": [
+      {
+       "name": "Dimas Akwilla",
+       "role": "Researcher at Krakatau Digital"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s26-2",
+     "time": "10:30-11:20",
+     "timeStart": "10:30",
+     "timeEnd": "11:20",
+     "room": "Room Diamond 2",
+     "roomShort": "Diamond 2",
+     "title": "Membaca Orang: Kecakapan Sosial yang Berharga",
+     "track": "Self Development",
+     "speakers": [
+      {
+       "name": "Farhan Kusuma",
+       "role": "CEO at KopiKita"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s27-3",
+     "time": "11:30-12:20",
+     "timeStart": "11:30",
+     "timeEnd": "12:20",
+     "room": "Room Diamond 3",
+     "roomShort": "Diamond 3",
+     "title": "Beralih dari Manajemen ke Sistem",
+     "track": "Bisnis",
+     "speakers": [
+      {
+       "name": "Hana Wicaksono",
+       "role": "Founder at Gemilang Foods"
+      },
+      {
+       "name": "Mira Permata",
+       "role": "Social Impact Lead at Teluk Learn"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s28-hall",
+     "time": "13:30-14:20",
+     "timeStart": "13:30",
+     "timeEnd": "14:20",
+     "room": "Grand Hall",
+     "roomShort": "Grand Hall",
+     "title": "Konten yang Berbisnis: Dari Story ke Offer",
+     "track": "Content",
+     "speakers": [
+      {
+       "name": "Cahya Kusuma",
+       "role": "Startup Coach at Sumbergx"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s29-corner",
+     "time": "14:30-15:20",
+     "timeStart": "14:30",
+     "timeEnd": "15:20",
+     "room": "Studio Corner",
+     "roomShort": "Studio Corner",
+     "title": "Psikologi untuk Pebisnis",
+     "track": "Mental Health",
+     "speakers": [
+      {
+       "name": "Raka Chandra",
+       "role": "Head of Marketing at Lentera Data"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s30-terrace",
+     "time": "15:30-16:20",
+     "timeStart": "15:30",
+     "timeEnd": "16:20",
+     "room": "Rooftop Terrace",
+     "roomShort": "Rooftop Terrace",
+     "title": "Dari Dapur ke Rumah Brand: Membesarkan F&B Lokal",
+     "track": "FnB",
+     "speakers": [
+      {
+       "name": "Krisna Amalia",
+       "role": "Community Lead at Angin Labs"
+      },
+      {
+       "name": "Fitri Maharani",
+       "role": "Business Analyst at Gema Media"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s31-origin",
+     "time": "16:30-17:20",
+     "timeStart": "16:30",
+     "timeEnd": "17:20",
+     "room": "Room Origin",
+     "roomShort": "Origin",
+     "title": "AI untuk UMKM: Tools yang Selesai Dipakai",
+     "track": "Teknologi",
+     "speakers": [
+      {
+       "name": "Farhan Cecilia",
+       "role": "Researcher at Surabaya Creative Co."
+      },
+      {
+       "name": "Alya Cecilia",
+       "role": "Marketing Director at Lentera Data"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s32-1",
+     "time": "17:30-18:20",
+     "timeStart": "17:30",
+     "timeEnd": "18:20",
+     "room": "Room Crystal 1",
+     "roomShort": "Crystal 1",
+     "title": "Arah Kota: Desain yang Melayani Semua",
+     "track": "Policy Making",
+     "speakers": [
+      {
+       "name": "Fitri Gabriela",
+       "role": "Business Analyst at Tegar Farm"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s33-2",
+     "time": "09:30-10:20",
+     "timeStart": "09:30",
+     "timeEnd": "10:20",
+     "room": "Room Crystal 2",
+     "roomShort": "Crystal 2",
+     "title": "Karya yang Jalan: Menjual Seni sebagai Produk",
+     "track": "Art & Culture",
+     "speakers": [
+      {
+       "name": "Laras Baskoro",
+       "role": "Founder of Studio at Rimba Works"
+      },
+      {
+       "name": "Joko Maharani",
+       "role": "Startup Coach at Bambu Studio"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    },
+    {
+     "id": "d2-s34-3",
+     "time": "10:30-11:20",
+     "timeStart": "10:30",
+     "timeEnd": "11:20",
+     "room": "Room Crystal 3",
+     "roomShort": "Crystal 3",
+     "title": "Kebiasaan Kecil yang Mengubah Setahun",
+     "track": "Self Development",
+     "speakers": [
+      {
+       "name": "Maya Baskoro",
+       "role": "Founder of Studio at Tembakau Labs"
+      },
+      {
+       "name": "Bunga Hidayat",
+       "role": "Co-Founder at Tembakau Labs"
+      }
+     ],
+     "status": "confirmed",
+     "day": 2
+    }
+   ]
+  },
+  {
+   "day": 3,
+   "date": "2027-08-08",
+   "dayLabel": "Day 3",
+   "sessions": [
+    {
+     "id": "d3-s1-origin",
+     "time": "09:30-10:20",
+     "timeStart": "09:30",
+     "timeEnd": "10:20",
+     "room": "Room Origin",
+     "roomShort": "Origin",
+     "title": "Video Pendek yang Rata-rata Nonton",
+     "track": "Content",
+     "speakers": [
+      {
+       "name": "Sari Wulandari",
+       "role": "Founder of Studio at Cendana Group"
+      }
+     ],
+     "status": "confirmed",
+     "day": 3
+    },
+    {
+     "id": "d3-s2-1",
+     "time": "10:30-11:20",
+     "timeStart": "10:30",
+     "timeEnd": "11:20",
+     "room": "Room Crystal 1",
+     "roomShort": "Crystal 1",
+     "title": "Ruang Aman di Kantor",
+     "track": "Mental Health",
+     "speakers": [
+      {
+       "name": "Dinda Tranggono",
+       "role": "Business Analyst at Senja Labs"
+      }
+     ],
+     "status": "confirmed",
+     "day": 3
+    },
+    {
+     "id": "d3-s3-2",
+     "time": "11:30-12:20",
+     "timeStart": "11:30",
+     "timeEnd": "12:20",
+     "room": "Room Crystal 2",
+     "roomShort": "Crystal 2",
+     "title": "Kopi dan Cerita: Menyusun Menu yang Menghoyok",
+     "track": "FnB",
+     "speakers": [
+      {
+       "name": "Putri Safira",
+       "role": "Founder & CEO at Surabaya Creative Co."
+      },
+      {
+       "name": "Gilang Nugroho",
+       "role": "Head of Marketing at Teluk Learn"
+      },
+      {
+       "name": "Raka Nugrohi",
+       "role": "Brand Strategist at Terang Digital"
+      }
+     ],
+     "status": "confirmed",
+     "day": 3
+    },
+    {
+     "id": "d3-s4-3",
+     "time": "13:30-14:20",
+     "timeStart": "13:30",
+     "timeEnd": "14:20",
+     "room": "Room Crystal 3",
+     "roomShort": "Crystal 3",
+     "title": "Membangun SaaS di Indonesia",
+     "track": "Teknologi",
+     "speakers": [
+      {
+       "name": "Ulfa Saputra",
+       "role": "Tech Lead at Gema Media"
+      }
+     ],
+     "status": "confirmed",
+     "day": 3
+    },
+    {
+     "id": "d3-s5-1",
+     "time": "14:30-15:20",
+     "timeStart": "14:30",
+     "timeEnd": "15:20",
+     "room": "Room Diamond 1",
+     "roomShort": "Diamond 1",
+     "title": "Keputusan yang Memengaruhi Banyak Orang",
+     "track": "Policy Making",
+     "speakers": [
+      {
+       "name": "Andra Tranggono",
+       "role": "Event Organizer at Teluk Learn"
+      },
+      {
+       "name": "Joko Wulandari",
+       "role": "Community Lead at Sumbergx"
+      }
+     ],
+     "status": "confirmed",
+     "day": 3
+    },
+    {
+     "id": "d3-s6-2",
+     "time": "15:30-16:20",
+     "timeStart": "15:30",
+     "timeEnd": "16:20",
+     "room": "Room Diamond 2",
+     "roomShort": "Diamond 2",
+     "title": "Musik, Kategori, dan Penonton Baru",
+     "track": "Art & Culture",
+     "speakers": [
+      {
+       "name": "Fajar Kusuma",
+       "role": "Wellness Coach at Pesisir Foods"
+      }
+     ],
+     "status": "confirmed",
+     "day": 3
+    },
+    {
+     "id": "d3-s7-3",
+     "time": "16:30-17:20",
+     "timeStart": "16:30",
+     "timeEnd": "17:20",
+     "room": "Room Diamond 3",
+     "roomShort": "Diamond 3",
+     "title": "Bekerja dengan Energi: Memulihkan Waktu",
+     "track": "Self Development",
+     "speakers": [
+      {
+       "name": "Oktavia Soebijandono",
+       "role": "Content Creator at Krakatau Digital"
+      },
+      {
+       "name": "Ulfa Maharani",
+       "role": "Community Manager at KopiKita"
+      }
+     ],
+     "status": "confirmed",
+     "day": 3
+    },
+    {
+     "id": "d3-s8-hall",
+     "time": "17:30-18:20",
+     "timeStart": "17:30",
+     "timeEnd": "18:20",
+     "room": "Grand Hall",
+     "roomShort": "Grand Hall",
+     "title": "Belajar dari Gagal: Cerita Produk yang Tidak Terjual",
+     "track": "Bisnis",
+     "speakers": [
+      {
+       "name": "Krisna Hartati",
+       "role": "Art Director at Archipelago Health"
+      },
+      {
+       "name": "Ulma Gunawan",
+       "role": "Music Producer at Senja Labs"
+      },
+      {
+       "name": "Citra Susanto",
+       "role": "Marketing Director at Sagara Group"
+      }
+     ],
+     "status": "confirmed",
+     "day": 3
+    },
+    {
+     "id": "d3-s9-corner",
+     "time": "09:30-10:20",
+     "timeStart": "09:30",
+     "timeEnd": "10:20",
+     "room": "Studio Corner",
+     "roomShort": "Studio Corner",
+     "title": "Menulis untuk Dengerin, Bukan untuk Skor",
+     "track": "Content",
+     "speakers": [
+      {
+       "name": "Zaki Handayani",
+       "role": "Community Manager at Archipelago Health"
+      },
+      {
+       "name": "Cahya Wicahana",
+       "role": "Wellness Coach at Tegar Farm"
+      }
+     ],
+     "status": "confirmed",
+     "day": 3
+    },
+    {
+     "id": "d3-s10-terrace",
+     "time": "10:30-11:20",
+     "timeStart": "10:30",
+     "timeEnd": "11:20",
+     "room": "Rooftop Terrace",
+     "roomShort": "Rooftop Terrace",
+     "title": "Self-care yang Bukan Sekadar Spa",
+     "track": "Mental Health",
+     "speakers": [
+      {
+       "name": "Joko Dewi",
+       "role": "Wellness Coach at Krakatau Digital"
+      }
+     ],
+     "status": "confirmed",
+     "day": 3
+    },
+    {
+     "id": "d3-s11-origin",
+     "time": "11:30-12:20",
+     "timeStart": "11:30",
+     "timeEnd": "12:20",
+     "room": "Room Origin",
+     "roomShort": "Origin",
+     "title": "Omzet Naik tanpa Tambah Produk",
+     "track": "FnB",
+     "speakers": [
+      {
+       "name": "Bagas Soebijandono",
+       "role": "Creative Director at Makara Studio"
+      }
+     ],
+     "status": "confirmed",
+     "day": 3
+    },
+    {
+     "id": "d3-s12-1",
+     "time": "13:30-14:20",
+     "timeStart": "13:30",
+     "timeEnd": "14:20",
+     "room": "Room Crystal 1",
+     "roomShort": "Crystal 1",
+     "title": "Data yang Bisa Dipercaya",
+     "track": "Teknologi",
+     "speakers": [
+      {
+       "name": "Fitri Firmansyah",
+       "role": "Co-Founder at Krakatau Digital"
+      },
+      {
+       "name": "Sari Rahmawati",
+       "role": "Business Analyst at Sumbergx"
+      }
+     ],
+     "status": "confirmed",
+     "day": 3
+    }
+   ]
+  }
+ ],
+ "speakers": [
+  {
+   "name": "Bunga Wulandari",
+   "role": "Co-Founder at Nusantara EduTech",
+   "track": "FnB",
+   "bio": "Bunga Wulandari adalah co-founder di Nusantara EduTech. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Gita Nugrohi",
+   "role": "Head of Product at Bunga Kita Group",
+   "track": "Teknologi",
+   "bio": "Gita Nugrohi adalah head of product di Bunga Kita Group. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Joko Saputra",
+   "role": "Co-Founder at Pesisir Foods",
+   "track": "Teknologi",
+   "bio": "Joko Saputra adalah co-founder di Pesisir Foods. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Dimas Permata",
+   "role": "CEO at Sumbergx",
+   "track": "Teknologi",
+   "bio": "Dimas Permata adalah ceo di Sumbergx. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Dimas Chandra",
+   "role": "Wellness Coach at Levi Works",
+   "track": "Policy Making",
+   "bio": "Dimas Chandra adalah wellness coach di Levi Works. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Oka Santoso",
+   "role": "Community Manager at Bunga Kita Group",
+   "track": "Policy Making",
+   "bio": "Oka Santoso adalah community manager di Bunga Kita Group. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Nanda Oktaviani",
+   "role": "Content Creator at Bunga Kita Group",
+   "track": "Policy Making",
+   "bio": "Nanda Oktaviani adalah content creator di Bunga Kita Group. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Mira Hartati",
+   "role": "Creative Director at Angin Labs",
+   "track": "Art & Culture",
+   "bio": "Mira Hartati adalah creative director di Angin Labs. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Laras Budiono",
+   "role": "Head of Product at Bintang PDFs",
+   "track": "Self Development",
+   "bio": "Laras Budiono adalah head of product di Bintang PDFs. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Gita Oktaviani",
+   "role": "Head of Product at Lentera Data",
+   "track": "Bisnis",
+   "bio": "Gita Oktaviani adalah head of product di Lentera Data. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Mira Gunawan",
+   "role": "CEO at Bunga Kita Group",
+   "track": "Content",
+   "bio": "Mira Gunawan adalah ceo di Bunga Kita Group. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Intan Maulana",
+   "role": "Director at Tegar Farm",
+   "track": "Mental Health",
+   "bio": "Intan Maulana adalah director di Tegar Farm. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Oktavia Wicaksono",
+   "role": "Tech Lead at Bintang PDFs",
+   "track": "FnB",
+   "bio": "Oktavia Wicaksono adalah tech lead di Bintang PDFs. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Putri Lazuardi",
+   "role": "Head of Marketing at Sumbergx",
+   "track": "FnB",
+   "bio": "Putri Lazuardi adalah head of marketing di Sumbergx. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Ulfa Kusuma",
+   "role": "Event Organizer at Gemilang Foods",
+   "track": "Teknologi",
+   "bio": "Ulfa Kusuma adalah event organizer di Gemilang Foods. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Zaki Lestari",
+   "role": "Founder & CEO at Nusantara EduTech",
+   "track": "Teknologi",
+   "bio": "Zaki Lestari adalah founder & ceo di Nusantara EduTech. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Hana Maharani",
+   "role": "Investment Manager at Sidoarjo Ventures",
+   "track": "Teknologi",
+   "bio": "Hana Maharani adalah investment manager di Sidoarjo Ventures. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Intan Permata",
+   "role": "Co-Founder at Nusantara EduTech",
+   "track": "Policy Making",
+   "bio": "Intan Permata adalah co-founder di Nusantara EduTech. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Eni Wicahana",
+   "role": "Brand Strategist at Gemilang Foods",
+   "track": "Art & Culture",
+   "bio": "Eni Wicahana adalah brand strategist di Gemilang Foods. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Wira Hidayat",
+   "role": "Creative Lead at Sagara Group",
+   "track": "Art & Culture",
+   "bio": "Wira Hidayat adalah creative lead di Sagara Group. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Oktavia Pratama",
+   "role": "Public Figure at Nusantara EduTech",
+   "track": "Art & Culture",
+   "bio": "Oktavia Pratama adalah public figure di Nusantara EduTech. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Hesti Safira",
+   "role": "Business Analyst at Nusantara EduTech",
+   "track": "Self Development",
+   "bio": "Hesti Safira adalah business analyst di Nusantara EduTech. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Dinda Prasetyo",
+   "role": "Startup Coach at Bintang PDFs",
+   "track": "Self Development",
+   "bio": "Dinda Prasetyo adalah startup coach di Bintang PDFs. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Taufik Gunawan",
+   "role": "Content Creator at Kita Berkarya",
+   "track": "Bisnis",
+   "bio": "Taufik Gunawan adalah content creator di Kita Berkarya. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Bagas Wicaksono",
+   "role": "Tech Lead at Sidoarjo Ventures",
+   "track": "Bisnis",
+   "bio": "Bagas Wicaksono adalah tech lead di Sidoarjo Ventures. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Intan Chandra",
+   "role": "Community Lead at Angin Labs",
+   "track": "Content",
+   "bio": "Intan Chandra adalah community lead di Angin Labs. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Bunga Ardiansyah",
+   "role": "Social Impact Lead at Sagara Group",
+   "track": "Mental Health",
+   "bio": "Bunga Ardiansyah adalah social impact lead di Sagara Group. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Fitri Ardiansyah",
+   "role": "Director at Teluk Learn",
+   "track": "FnB",
+   "bio": "Fitri Ardiansyah adalah director di Teluk Learn. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Mira Wibowo",
+   "role": "Startup Coach at Cahaya Prima",
+   "track": "Teknologi",
+   "bio": "Mira Wibowo adalah startup coach di Cahaya Prima. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Yoga Maulana",
+   "role": "Founder of Studio at Senja Labs",
+   "track": "Teknologi",
+   "bio": "Yoga Maulana adalah founder of studio di Senja Labs. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Fajar Nugroho",
+   "role": "Creative Director at KopiKita",
+   "track": "Policy Making",
+   "bio": "Fajar Nugroho adalah creative director di KopiKita. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Alya Setiawan",
+   "role": "Wellness Coach at Gema Media",
+   "track": "Art & Culture",
+   "bio": "Alya Setiawan adalah wellness coach di Gema Media. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Alya Jiang",
+   "role": "Investment Manager at Makara Studio",
+   "track": "Self Development",
+   "bio": "Alya Jiang adalah investment manager di Makara Studio. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Rizky Dewi",
+   "role": "Brand Strategist at Tembakau Labs",
+   "track": "Self Development",
+   "bio": "Rizky Dewi adalah brand strategist di Tembakau Labs. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Tio Maulana",
+   "role": "Marketing Director at Bunga Kita Group",
+   "track": "Bisnis",
+   "bio": "Tio Maulana adalah marketing director di Bunga Kita Group. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Gilang Pranoto",
+   "role": "Art Director at Rimba Works",
+   "track": "Bisnis",
+   "bio": "Gilang Pranoto adalah art director di Rimba Works. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Bunga Gabriela",
+   "role": "Event Organizer at Rimba Works",
+   "track": "Bisnis",
+   "bio": "Bunga Gabriela adalah event organizer di Rimba Works. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Eka Saputra",
+   "role": "Public Figure at Sidoarjo Ventures",
+   "track": "Content",
+   "bio": "Eka Saputra adalah public figure di Sidoarjo Ventures. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Panji Chandra",
+   "role": "CMO at Nusantara Labs",
+   "track": "Mental Health",
+   "bio": "Panji Chandra adalah cmo di Nusantara Labs. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Nanda Jiang",
+   "role": "Director at Ruang Kita",
+   "track": "Mental Health",
+   "bio": "Nanda Jiang adalah director di Ruang Kita. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Bagas Akwilla",
+   "role": "Policy Advisor at Bambu Studio",
+   "track": "FnB",
+   "bio": "Bagas Akwilla adalah policy advisor di Bambu Studio. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Rizky Puspita",
+   "role": "Creative Director at Cendana Group",
+   "track": "FnB",
+   "bio": "Rizky Puspita adalah creative director di Cendana Group. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Yoga Syahputra",
+   "role": "Tech Lead at Cerdas Media",
+   "track": "FnB",
+   "bio": "Yoga Syahputra adalah tech lead di Cerdas Media. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Intan Wicaksono",
+   "role": "Event Organizer at Cerdas Media",
+   "track": "Teknologi",
+   "bio": "Intan Wicaksono adalah event organizer di Cerdas Media. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Jihan Gabriela",
+   "role": "Marketing Director at Gemilang Foods",
+   "track": "Policy Making",
+   "bio": "Jihan Gabriela adalah marketing director di Gemilang Foods. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Hesti Baskoro",
+   "role": "Startup Coach at Sidoarjo Ventures",
+   "track": "Art & Culture",
+   "bio": "Hesti Baskoro adalah startup coach di Sidoarjo Ventures. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Krisna Cecilia",
+   "role": "Community Lead at Makara Studio",
+   "track": "Art & Culture",
+   "bio": "Krisna Cecilia adalah community lead di Makara Studio. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Bagas Amalia",
+   "role": "Consultant at Bintang PDFs",
+   "track": "Self Development",
+   "bio": "Bagas Amalia adalah consultant di Bintang PDFs. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Tio Pranoto",
+   "role": "CEO at Cendana Group",
+   "track": "Self Development",
+   "bio": "Tio Pranoto adalah ceo di Cendana Group. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Krisna Nugrohi",
+   "role": "Social Impact Lead at Sidoarjo Ventures",
+   "track": "Self Development",
+   "bio": "Krisna Nugrohi adalah social impact lead di Sidoarjo Ventures. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Laras Rahmawati",
+   "role": "Art Director at Gemilang Foods",
+   "track": "Bisnis",
+   "bio": "Laras Rahmawati adalah art director di Gemilang Foods. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Rizky Pratama",
+   "role": "Music Producer at Lentera Data",
+   "track": "Content",
+   "bio": "Rizky Pratama adalah music producer di Lentera Data. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Bayu Pratama",
+   "role": "Product Manager at Lentera Data",
+   "track": "Mental Health",
+   "bio": "Bayu Pratama adalah product manager di Lentera Data. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Krisna Setiawan",
+   "role": "Tech Lead at Krakatau Digital",
+   "track": "Mental Health",
+   "bio": "Krisna Setiawan adalah tech lead di Krakatau Digital. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Hesti Kusuma",
+   "role": "Community Lead at Kita Berkarya",
+   "track": "FnB",
+   "bio": "Hesti Kusuma adalah community lead di Kita Berkarya. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Fitri Pratama",
+   "role": "Social Impact Lead at Kita Berkarya",
+   "track": "FnB",
+   "bio": "Fitri Pratama adalah social impact lead di Kita Berkarya. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Oka Gabriela",
+   "role": "Product Manager at Cerdas Media",
+   "track": "Teknologi",
+   "bio": "Oka Gabriela adalah product manager di Cerdas Media. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Nanda Anggraini",
+   "role": "Creative Lead at Nusantara Labs",
+   "track": "Art & Culture",
+   "bio": "Nanda Anggraini adalah creative lead di Nusantara Labs. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Hesti Wulandari",
+   "role": "Tech Lead at Pesisir Foods",
+   "track": "Art & Culture",
+   "bio": "Hesti Wulandari adalah tech lead di Pesisir Foods. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Andra Lazuardi",
+   "role": "Startup Coach at Lentera Data",
+   "track": "Self Development",
+   "bio": "Andra Lazuardi adalah startup coach di Lentera Data. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Dimas Lazuardi",
+   "role": "Community Manager at Gemilang Foods",
+   "track": "Bisnis",
+   "bio": "Dimas Lazuardi adalah community manager di Gemilang Foods. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Gilang Ardiansyah",
+   "role": "Marketing Director at Pesisir Foods",
+   "track": "Content",
+   "bio": "Gilang Ardiansyah adalah marketing director di Pesisir Foods. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Zaki Wijaya",
+   "role": "Head of Marketing at Tembakau Labs",
+   "track": "Content",
+   "bio": "Zaki Wijaya adalah head of marketing di Tembakau Labs. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Farhan Wulandari",
+   "role": "Creative Director at Cerdas Media",
+   "track": "Mental Health",
+   "bio": "Farhan Wulandari adalah creative director di Cerdas Media. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Mira Firmansyah",
+   "role": "Creative Director at Krakatau Digital",
+   "track": "FnB",
+   "bio": "Mira Firmansyah adalah creative director di Krakatau Digital. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Krisna Wulandari",
+   "role": "Social Impact Lead at Tembakau Labs",
+   "track": "Teknologi",
+   "bio": "Krisna Wulandari adalah social impact lead di Tembakau Labs. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Nanda Cecilia",
+   "role": "Researcher at Bambu Studio",
+   "track": "Policy Making",
+   "bio": "Nanda Cecilia adalah researcher di Bambu Studio. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Putri Amalia",
+   "role": "Head of Product at Terang Digital",
+   "track": "Art & Culture",
+   "bio": "Putri Amalia adalah head of product di Terang Digital. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Raka Rahmawati",
+   "role": "Investment Manager at Tembakau Labs",
+   "track": "Art & Culture",
+   "bio": "Raka Rahmawati adalah investment manager di Tembakau Labs. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Dinda Wulandari",
+   "role": "Tech Lead at Harum Foods",
+   "track": "Art & Culture",
+   "bio": "Dinda Wulandari adalah tech lead di Harum Foods. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Gilang Kusuma",
+   "role": "Investment Manager at Tembakau Labs",
+   "track": "Self Development",
+   "bio": "Gilang Kusuma adalah investment manager di Tembakau Labs. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Laras Jiang",
+   "role": "Consultant at Krakatau Digital",
+   "track": "Self Development",
+   "bio": "Laras Jiang adalah consultant di Krakatau Digital. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Fitri Sukmana",
+   "role": "Head of Marketing at Nusantara Labs",
+   "track": "Self Development",
+   "bio": "Fitri Sukmana adalah head of marketing di Nusantara Labs. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Jihan Anggraini",
+   "role": "Creative Lead at Levi Works",
+   "track": "Bisnis",
+   "bio": "Jihan Anggraini adalah creative lead di Levi Works. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Vino Maulana",
+   "role": "Consultant at Cerdas Media",
+   "track": "Content",
+   "bio": "Vino Maulana adalah consultant di Cerdas Media. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Dinda Hartono",
+   "role": "Community Lead at Teluk Learn",
+   "track": "Mental Health",
+   "bio": "Dinda Hartono adalah community lead di Teluk Learn. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Cahya Sukmana",
+   "role": "CMO at Nusa Byte",
+   "track": "Mental Health",
+   "bio": "Cahya Sukmana adalah cmo di Nusa Byte. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Mira Cecilia",
+   "role": "Art Director at Nusantara EduTech",
+   "track": "Mental Health",
+   "bio": "Mira Cecilia adalah art director di Nusantara EduTech. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Rizky Maharani",
+   "role": "Creative Lead at Lentera Data",
+   "track": "FnB",
+   "bio": "Rizky Maharani adalah creative lead di Lentera Data. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Wira Wibowo",
+   "role": "Public Figure at Cerdas Media",
+   "track": "FnB",
+   "bio": "Wira Wibowo adalah public figure di Cerdas Media. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Wira Kusuma",
+   "role": "Founder of Studio at Cendana Group",
+   "track": "Teknologi",
+   "bio": "Wira Kusuma adalah founder of studio di Cendana Group. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Indra Permata",
+   "role": "CMO at Rimba Works",
+   "track": "Policy Making",
+   "bio": "Indra Permata adalah cmo di Rimba Works. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Fitri Susanto",
+   "role": "CEO at Sumbergx",
+   "track": "Policy Making",
+   "bio": "Fitri Susanto adalah ceo di Sumbergx. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Nanda Nugroho",
+   "role": "Founder & CEO at Levi Works",
+   "track": "Art & Culture",
+   "bio": "Nanda Nugroho adalah founder & ceo di Levi Works. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Jihan Kusuma",
+   "role": "Founder of Studio at Tembakau Labs",
+   "track": "Self Development",
+   "bio": "Jihan Kusuma adalah founder of studio di Tembakau Labs. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Gilang Ramadhan",
+   "role": "Marketing Director at Ruang Kita",
+   "track": "Self Development",
+   "bio": "Gilang Ramadhan adalah marketing director di Ruang Kita. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Kirana Nugroho",
+   "role": "Wellness Coach at KopiKita",
+   "track": "Bisnis",
+   "bio": "Kirana Nugroho adalah wellness coach di KopiKita. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Kirana Gunawan",
+   "role": "Investment Manager at Rimba Works",
+   "track": "Bisnis",
+   "bio": "Kirana Gunawan adalah investment manager di Rimba Works. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Maya Hidayat",
+   "role": "Brand Strategist at Pesisir Foods",
+   "track": "Content",
+   "bio": "Maya Hidayat adalah brand strategist di Pesisir Foods. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Zaki Nugrohi",
+   "role": "Founder at Gemilang Foods",
+   "track": "Content",
+   "bio": "Zaki Nugrohi adalah founder di Gemilang Foods. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Fitri Gunawan",
+   "role": "Founder at Senja Labs",
+   "track": "Mental Health",
+   "bio": "Fitri Gunawan adalah founder di Senja Labs. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Wulan Kusuma",
+   "role": "Creative Lead at Angin Labs",
+   "track": "Mental Health",
+   "bio": "Wulan Kusuma adalah creative lead di Angin Labs. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Eni Ramadhan",
+   "role": "Founder of Studio at Ruang Kita",
+   "track": "FnB",
+   "bio": "Eni Ramadhan adalah founder of studio di Ruang Kita. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Sari Soebijandono",
+   "role": "Founder of Studio at Gema Media",
+   "track": "Teknologi",
+   "bio": "Sari Soebijandono adalah founder of studio di Gema Media. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Sari Amalia",
+   "role": "Creative Director at Tegar Farm",
+   "track": "Teknologi",
+   "bio": "Sari Amalia adalah creative director di Tegar Farm. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Jihan Rahmawati",
+   "role": "Social Impact Lead at Sagara Group",
+   "track": "Policy Making",
+   "bio": "Jihan Rahmawati adalah social impact lead di Sagara Group. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Wira Susanto",
+   "role": "CEO at Teluk Learn",
+   "track": "Policy Making",
+   "bio": "Wira Susanto adalah ceo di Teluk Learn. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Dimas Akwilla",
+   "role": "Researcher at Krakatau Digital",
+   "track": "Art & Culture",
+   "bio": "Dimas Akwilla adalah researcher di Krakatau Digital. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Farhan Kusuma",
+   "role": "CEO at KopiKita",
+   "track": "Self Development",
+   "bio": "Farhan Kusuma adalah ceo di KopiKita. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Hana Wicaksono",
+   "role": "Founder at Gemilang Foods",
+   "track": "Bisnis",
+   "bio": "Hana Wicaksono adalah founder di Gemilang Foods. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Mira Permata",
+   "role": "Social Impact Lead at Teluk Learn",
+   "track": "Bisnis",
+   "bio": "Mira Permata adalah social impact lead di Teluk Learn. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Cahya Kusuma",
+   "role": "Startup Coach at Sumbergx",
+   "track": "Content",
+   "bio": "Cahya Kusuma adalah startup coach di Sumbergx. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Raka Chandra",
+   "role": "Head of Marketing at Lentera Data",
+   "track": "Mental Health",
+   "bio": "Raka Chandra adalah head of marketing di Lentera Data. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Krisna Amalia",
+   "role": "Community Lead at Angin Labs",
+   "track": "FnB",
+   "bio": "Krisna Amalia adalah community lead di Angin Labs. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Fitri Maharani",
+   "role": "Business Analyst at Gema Media",
+   "track": "FnB",
+   "bio": "Fitri Maharani adalah business analyst di Gema Media. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Farhan Cecilia",
+   "role": "Researcher at Surabaya Creative Co.",
+   "track": "Teknologi",
+   "bio": "Farhan Cecilia adalah researcher di Surabaya Creative Co.. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Alya Cecilia",
+   "role": "Marketing Director at Lentera Data",
+   "track": "Teknologi",
+   "bio": "Alya Cecilia adalah marketing director di Lentera Data. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Fitri Gabriela",
+   "role": "Business Analyst at Tegar Farm",
+   "track": "Policy Making",
+   "bio": "Fitri Gabriela adalah business analyst di Tegar Farm. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Laras Baskoro",
+   "role": "Founder of Studio at Rimba Works",
+   "track": "Art & Culture",
+   "bio": "Laras Baskoro adalah founder of studio di Rimba Works. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Joko Maharani",
+   "role": "Startup Coach at Bambu Studio",
+   "track": "Art & Culture",
+   "bio": "Joko Maharani adalah startup coach di Bambu Studio. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Maya Baskoro",
+   "role": "Founder of Studio at Tembakau Labs",
+   "track": "Self Development",
+   "bio": "Maya Baskoro adalah founder of studio di Tembakau Labs. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Bunga Hidayat",
+   "role": "Co-Founder at Tembakau Labs",
+   "track": "Self Development",
+   "bio": "Bunga Hidayat adalah co-founder di Tembakau Labs. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Sari Wulandari",
+   "role": "Founder of Studio at Cendana Group",
+   "track": "Content",
+   "bio": "Sari Wulandari adalah founder of studio di Cendana Group. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Dinda Tranggono",
+   "role": "Business Analyst at Senja Labs",
+   "track": "Mental Health",
+   "bio": "Dinda Tranggono adalah business analyst di Senja Labs. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Putri Safira",
+   "role": "Founder & CEO at Surabaya Creative Co.",
+   "track": "FnB",
+   "bio": "Putri Safira adalah founder & ceo di Surabaya Creative Co.. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Gilang Nugroho",
+   "role": "Head of Marketing at Teluk Learn",
+   "track": "FnB",
+   "bio": "Gilang Nugroho adalah head of marketing di Teluk Learn. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Raka Nugrohi",
+   "role": "Brand Strategist at Terang Digital",
+   "track": "FnB",
+   "bio": "Raka Nugrohi adalah brand strategist di Terang Digital. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Ulfa Saputra",
+   "role": "Tech Lead at Gema Media",
+   "track": "Teknologi",
+   "bio": "Ulfa Saputra adalah tech lead di Gema Media. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Andra Tranggono",
+   "role": "Event Organizer at Teluk Learn",
+   "track": "Policy Making",
+   "bio": "Andra Tranggono adalah event organizer di Teluk Learn. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Joko Wulandari",
+   "role": "Community Lead at Sumbergx",
+   "track": "Policy Making",
+   "bio": "Joko Wulandari adalah community lead di Sumbergx. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Fajar Kusuma",
+   "role": "Wellness Coach at Pesisir Foods",
+   "track": "Art & Culture",
+   "bio": "Fajar Kusuma adalah wellness coach di Pesisir Foods. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Oktavia Soebijandono",
+   "role": "Content Creator at Krakatau Digital",
+   "track": "Self Development",
+   "bio": "Oktavia Soebijandono adalah content creator di Krakatau Digital. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Ulfa Maharani",
+   "role": "Community Manager at KopiKita",
+   "track": "Self Development",
+   "bio": "Ulfa Maharani adalah community manager di KopiKita. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Krisna Hartati",
+   "role": "Art Director at Archipelago Health",
+   "track": "Bisnis",
+   "bio": "Krisna Hartati adalah art director di Archipelago Health. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Ulma Gunawan",
+   "role": "Music Producer at Senja Labs",
+   "track": "Bisnis",
+   "bio": "Ulma Gunawan adalah music producer di Senja Labs. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Citra Susanto",
+   "role": "Marketing Director at Sagara Group",
+   "track": "Bisnis",
+   "bio": "Citra Susanto adalah marketing director di Sagara Group. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Zaki Handayani",
+   "role": "Community Manager at Archipelago Health",
+   "track": "Content",
+   "bio": "Zaki Handayani adalah community manager di Archipelago Health. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Cahya Wicahana",
+   "role": "Wellness Coach at Tegar Farm",
+   "track": "Content",
+   "bio": "Cahya Wicahana adalah wellness coach di Tegar Farm. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Joko Dewi",
+   "role": "Wellness Coach at Krakatau Digital",
+   "track": "Mental Health",
+   "bio": "Joko Dewi adalah wellness coach di Krakatau Digital. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Bagas Soebijandono",
+   "role": "Creative Director at Makara Studio",
+   "track": "FnB",
+   "bio": "Bagas Soebijandono adalah creative director di Makara Studio. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Fitri Firmansyah",
+   "role": "Co-Founder at Krakatau Digital",
+   "track": "Teknologi",
+   "bio": "Fitri Firmansyah adalah co-founder di Krakatau Digital. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  },
+  {
+   "name": "Sari Rahmawati",
+   "role": "Business Analyst at Sumbergx",
+   "track": "Teknologi",
+   "bio": "Sari Rahmawati adalah business analyst di Sumbergx. Ia membangun dan peacak yang membuat ide yang sederhana jadi layak.ACTION."
+  }
+ ],
+ "tracks": [
+  "Bisnis",
+  "FnB",
+  "Art & Culture",
+  "Content",
+  "Teknologi",
+  "Self Development",
+  "Mental Health",
+  "Policy Making"
+ ]
+}
