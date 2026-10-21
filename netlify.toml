@@ -1,0 +1,8 @@
+[build]
+  publish = "."
+  command = ""
+
+[[headers]]
+  for = "/*"
+  [values]
+    X-Frame-Options = "SAMEORIGIN"

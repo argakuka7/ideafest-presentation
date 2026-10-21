@@ -17,3 +17,18 @@ Mockup aplikasi pengunjung IdeaFest + 1 agentic AI (Mira), dibangun dengan oil-u
 
 ## Yang belum ada
 Better Auth, Convex, panggilan DeepSeek, admin sungguhan. Antarmuka sudah siap; mesin rekomendasi memakai aturan lokal.
+
+## Deploy
+
+### GitHub Pages (aktif)
+`https://argakuka7.github.io/ideafest-presentation/`
+Deploy ulang: push ke `main` (workflow `pages.yml` jalan otomatis).
+
+### Netlify (opsional)
+Butuh token dari Netlify (Account settings → API tokens):
+
+```bash
+./deploy-netlify.sh <NETLIFY_AUTH_TOKEN> [site-id]
+```
+
+Tanpa `site-id`, Netlify membuat site baru. Dengan `site-id`, deploy ke site yang ada.
